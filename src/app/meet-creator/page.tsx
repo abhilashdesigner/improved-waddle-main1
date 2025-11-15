@@ -12,14 +12,13 @@ export default function MeetCreatorPage() {
       <MeetCreator />
 <section className="w-full flex justify-center items-center">
 <Image 
-			src="/images/2.jpg"
-			alt="Media"
-			width={100%}
-          height={auto} 
-			style={{ visibility: "hidden" }} 
+	src="/images/2.jpg"
+	alt="Media"
+	width={100%}
+    height={auto} 
+	style={{ visibility: "hidden" }} 
   />
       </section>
-      Abhilash Kumar
       <Logos />
       <Contact />
     </main>

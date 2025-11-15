@@ -19,7 +19,7 @@ export default function MeetCreatorPage() {
 			style={{ visibility: "hidden" }} 
   />
       </section>
-      Abhilash
+      Abhilash Kumar
       <Logos />
       <Contact />
     </main>

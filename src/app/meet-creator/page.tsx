@@ -11,6 +11,11 @@ export default function MeetCreatorPage() {
     <main className="pt-0 overflow-x-hidden">
       <MeetCreator />
       <section className="w-full flex justify-center items-center">
+        <div className="flex w-full bg-[#351A12] font-nats overflow-x-hidden px-[30px] py-[45px] lg:px-[50px] lg:py-[50px] xl:px-[104px] xl:py-[40px] desktop-xl:px-[104px] desktop-xl:py-[50px]">
+          <h1>
+          Abhilash Kumar
+          </h1> 
+        </div>
         <Image
           src="/images/meet-creator.png"
           alt="Media"

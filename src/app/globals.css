@@ -808,6 +808,10 @@ h3 {
    position: relative;
 }
 
+.visibility-hidden{
+	visibility: hidden;
+}
+
 .m-right-top-text {
    position: absolute;
    top: 33px;

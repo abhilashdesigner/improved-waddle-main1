@@ -20,7 +20,7 @@ export default function MeetCreatorPage() {
 				  alt="Media"
 				  width={100}
 				  height={100}
-				  className="w-full" style="visibility: hidden; opacity:0;"
+				  className="w-full visibility-hidden"
 				/>
 				<div className="m-left-top-text">
 					<h3 className="font-normal text-[20px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Modern School Barakhamba<br />road, new delhi</h3>
@@ -33,7 +33,7 @@ export default function MeetCreatorPage() {
 				  alt="Media"
 				  width={100}
 				  height={100}
-				  className="w-full" style="visibility: hidden; opacity:0;"
+				  className="w-full visibility-hidden"
 				/>
 				<div className="svg-line">
 					<svg
@@ -72,7 +72,7 @@ export default function MeetCreatorPage() {
 				alt="Media"
 				width={100}
 				height={100}
-				className="w-full" style="visibility: hidden;"
+				className="w-full visibility-hidden"
 			   />
 				<div className="m-right-top-text">
 					<h3 className="font-normal text-[20px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Srishti manipal institute of art,<br />design & technology, <br />bangalore</h3>
@@ -139,7 +139,7 @@ export default function MeetCreatorPage() {
 								alt="Media"
 								width={100}
 								height={100}
-								className="w-full" style="visibility: hidden;"
+								className="w-full visibility-hidden"
 							/>
 							<div className="m-left-top-text">
 								<h3 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Modern School Barakhamba<br />road, new delhi</h3>
@@ -152,7 +152,7 @@ export default function MeetCreatorPage() {
 								alt="Media"
 								width={100}
 								height={100}
-								className="w-full" style="visibility: hidden;"
+								className="w-full visibility-hidden"
 							/>
 							<div className="svg-line">
 							<svg
@@ -191,7 +191,7 @@ export default function MeetCreatorPage() {
 									alt="Media"
 									width={100}
 									height={100}
-									className="w-full" style="visibility: hidden;"
+									className="w-full visibility-hidden"
 								/>
 								<div className="m-right-top-text">
 									<h3 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Srishti manipal institute of<br />art,design & technology, <br />bangalore</h3>

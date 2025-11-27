@@ -448,7 +448,6 @@ export default function ProjectDisplay({
 					</div>
 				  </div>
 				</a>
-              <div style={{ height: "500px" }}></div>
             </div>
           </section>
         </div>

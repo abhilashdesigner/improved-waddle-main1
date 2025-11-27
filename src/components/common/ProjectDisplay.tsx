@@ -60,16 +60,7 @@ export default function ProjectDisplay({
     <canvas id="transition"></canvas>
 
       <main data-barba="container" data-barba-namespace="home">
-        <div 
-			className="o-scroll"
-		>
-          <section
-            className="selected-works h-screen"
-            id="sW"
-		  >
-            
-          </section>
-        </div>
+        
 	  </main>
   );
 }

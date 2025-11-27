@@ -451,5 +451,6 @@ export default function ProjectDisplay({
             </div>
           </section>
         </div>
+	  </main>
   );
 }

@@ -61,15 +61,11 @@ export default function ProjectDisplay({
 
       <main data-barba="container" data-barba-namespace="home">
         <div 
-			className="o-scroll" 
-			data-scroll-container="" 
-			id="js-scroll"
+			className="o-scroll"
 		>
           <section
             className="selected-works h-screen"
             id="sW"
-            data-persistent=""
-            data-scroll-section=""
 		  >
             
           </section>

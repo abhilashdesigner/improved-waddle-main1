@@ -58,9 +58,5 @@ export default function ProjectDisplay({
 
   return (
     <canvas id="transition"></canvas>
-
-      <main data-barba="container" data-barba-namespace="home">
-        
-	  </main>
   );
 }

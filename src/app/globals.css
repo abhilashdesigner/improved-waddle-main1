@@ -842,7 +842,8 @@ h3 {
    display: flex;
    width: 100%;
 }
-.m-sectiom-2 p, .b-sectiom-2 p{
+.m-sectiom-2 p, 
+.b-sectiom-2 p{
 	color: #fff;
 }
 .m-medium-2 {

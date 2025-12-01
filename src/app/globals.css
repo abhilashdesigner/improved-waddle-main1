@@ -588,6 +588,7 @@ h3 {
 .m-medium-2 {
     width: 40%;
     position: relative;
+	color: #fff;
 }
 
 .m-medium-2::before {
@@ -606,11 +607,13 @@ h3 {
     position: relative;
     width: 30%;
     border-right: 1px solid #fff;
+	color: #fff;
 }
 
 .m-left-top-2 {
     position: relative;
     width: 30%;
+	color: #fff;
 }
 
 .m-right-top-2 div {
@@ -671,12 +674,14 @@ h3 {
     width: 40%;
     position: relative;
     border-top: 1px solid #fff;
+	color: #fff;
 }
 
 .b-right-top-2 {
     position: relative;
     width: 30%;
     border-top: 1px solid #fff;
+	color: #fff;
 }
 
 .b-left-top-2 {
@@ -684,6 +689,7 @@ h3 {
     width: 30%;
     padding-left: 5%;
     padding-top: 4.8%;
+	color: #fff;
 }
 
 .b-left-top-2::after {

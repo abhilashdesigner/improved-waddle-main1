@@ -10,7 +10,7 @@ import SignupBanner from "@/components/landing/SignupBanner";
 
 export default function Home() {
   return (
-    <main className="pt-0 overflow-x-hidden">
+    <main className="pt-0">
       <Hero />
       <Launch />
       <ProjectDisplay />

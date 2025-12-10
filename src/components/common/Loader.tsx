@@ -12,7 +12,7 @@ interface LoaderProps {
 export default function Loader({
   isLoading,
   onComplete,
-  duration = 3000,
+  duration = 2000,
 }: LoaderProps) {
   const [showLoader, setShowLoader] = useState(isLoading);
 

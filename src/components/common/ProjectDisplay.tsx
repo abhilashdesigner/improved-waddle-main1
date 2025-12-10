@@ -78,8 +78,6 @@ export default function ProjectDisplay({
 				<a
 				  href="/pdp/typsy-beauty"
 				  className="project"
-				  aria-label="Typsy Beauty"
-				  name="Typsy Beauty"
 				>
 				  <div
 					className="project-marquee"
@@ -185,8 +183,6 @@ export default function ProjectDisplay({
 				<a
 				  href="/pdp/nimhans"
 				  className="project"
-				  aria-label="NIMHANS"
-				  name="NIMHANS"
 				>
 				  <div
 					className="project-marquee"
@@ -289,8 +285,6 @@ export default function ProjectDisplay({
 				<a
 				  href="/pdp/fa-home"
 				  className="project last-project"
-				  aria-label="FA Home"
-				  name="FA Home"
 				>
 				  <div
 					className="project-marquee"

@@ -52,12 +52,12 @@ export default function RootLayout({
 		<script
           src="https://cdn.jsdelivr.net/npm/scrollmoo@1.1.11/dist/scrollmoo.min.js"
           type="text/javascript"
-          strategy="afterInteractive"
+          async
         ></script>
 		<script
           src="/images/animation.js"
           type="text/javascript"
-          strategy="afterInteractive"
+          async
         ></script>
       </head>
       <body suppressHydrationWarning>

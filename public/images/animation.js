@@ -8,7 +8,7 @@ let SC = ScrollMoo({
     triggerStartElement: "body",
     triggerEndElement: "body",
     triggerEnd: "-50%",
-    sync: 0.1,
+    sync: 0.01,
     keyframes: {
       transform: {
         translateX: {

@@ -1730,10 +1730,7 @@ html.has-scroll-dragging {
 .project-grid{
 	font-size: 180px;
     white-space: nowrap;
-	animation-name: move;
-  animation-timeline: view();
-  animation-timing-function: linear;
-	transform: translateY(-40%);
+	
 	position:relative;
 }
 @keyframes move {

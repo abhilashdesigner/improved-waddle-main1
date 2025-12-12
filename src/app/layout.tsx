@@ -49,6 +49,16 @@ export default function RootLayout({
           type="text/javascript"
           async
         ></script>
+		<script
+          src="https://cdn.jsdelivr.net/npm/scrollmoo@1.1.11/dist/scrollmoo.min.js"
+          type="text/javascript"
+          strategy="afterInteractive"
+        ></script>
+		<script
+          src="/images/animation.js"
+          type="text/javascript"
+          strategy="afterInteractive"
+        ></script>
       </head>
       <body suppressHydrationWarning>
         <AppWrapper>

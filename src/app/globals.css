@@ -1819,7 +1819,7 @@ input[type="email"], input[type="email"]:focus, form div{
     margin: 0 40px;
     width: 80px;
 }
-.arrow-hero-right{
+.arrow-hero-right, .arrow-hero-left{
 	width:50px;
 }
 

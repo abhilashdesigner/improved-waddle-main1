@@ -12,7 +12,7 @@ export const SocialIcons = () => (
       className="w-[30px] h-[30px] md:w-[41px] md:h-[40px] flex items-center justify-center"
     >
       <Image
-        src="/images/footer/behance.png"
+        src="/images/footer/behance.svg"
         alt="Behance"
         width={40}
         height={40}
@@ -26,7 +26,7 @@ export const SocialIcons = () => (
       className="w-[30px] h-[30px] md:w-[41px] md:h-[40px] flex items-center justify-center"
     >
       <Image
-        src="/images/footer/linkedin.png"
+        src="/images/footer/linkedin.svg"
         alt="LinkedIn"
         width={40}
         height={40}

@@ -25,7 +25,7 @@ export default function Contact() {
               Get In Touch
             </h2>
           </div>
-          <div className="flex flex-col mt-4 lg:mt-0 lg:mb-3 lg:mr-4">
+          <div className="flex flex-col mt-4 lg:mt-0 lg:mr-4 contact-text" >
             <p className="font-nats text-[12px] lg:text-[16px] text-[#F7F5ED] max-w-[340px]">
               Ready to bring your vision to life? Let's explore how strategic
               design and modern tech can move your business forward. The first
@@ -33,7 +33,7 @@ export default function Contact() {
               minute discovery call.
             </p>
           </div>
-          <div className="flex flex-col mt-6 lg:mt-0 mb-1 lg:mb-6">
+          <div className="flex flex-col mt-6 lg:mt-0 mb-1 contact-btn">
             <button
               type="button"
               onClick={handleCalendlyClick}

@@ -7,7 +7,7 @@ import Image from "next/image";
 const Logos: React.FC = () => {
   return (
     <section className="w-full py-[54px] md:py-0 bg-[#F0E5D6] overflow-x-hidden">
-      <div className="px-[30px] md:px-[104px]">
+      <div className="">
         {/* Mobile Layout */}
         <div className="md:flex h-[328px] items-center justify-between logos">
           <div className="flex overflow-hidden">

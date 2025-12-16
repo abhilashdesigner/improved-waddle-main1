@@ -20,7 +20,7 @@ const carouselItems: CarouselItem[] = [
   {
     id: "2",
     type: "image",
-    src: "/images/carousel/banner2.gif",
+    src: "/images/carousel/banner2.jpg",
     alt: "Carousel image 2",
   },
   {
@@ -76,7 +76,7 @@ export default function BoxCarouselDemo() {
   const getCarouselDimensions = () => {
     if (screenSize.lessThan("md")) {
       // Mobile: 283px width, 213px height
-      return { width: 283, height: 213 };
+      return { width: 360, height: 260 };
     } else if (screenSize.lessThan("lg")) {
       return { width: 350, height: 300 };
     } else if (screenSize.lessThan("xl")) {
@@ -129,22 +129,8 @@ export default function BoxCarouselDemo() {
           />
         </div>
         <div className="flex gap-6 lg:gap-4 justify-center items-center">
-          <Image
-            onClick={handlePrev}
-            src="/images/Arrow-Left.png"
-            alt="Previous"
-            width={82}
-            height={82}
-            className="w-[38px] lg:w-[82px] cursor-pointer"
-          />
-          <Image
-            onClick={handleNext}
-            src="/images/Arrow-Right.png"
-            alt="Next"
-            width={82}
-            height={82}
-            className="w-[38px] lg:w-[82px] cursor-pointer"
-          />
+		  <div class="arrow-hero-left cursor-pointer" onClick={handlePrev}><span></span><span></span></div>
+		  <div class="arrow-hero-right cursor-pointer" onClick={handleNext}><span></span><span></span></div>
         </div>
       </div>
     </div>

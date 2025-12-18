@@ -21,29 +21,43 @@ const Logos: React.FC = () => {
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
-                src="/images/logos/four-points-logo-removebg.png"
+                src="/images/logos/fourpoints.svg"
                 alt="Four Points"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
-                src="/images/logos/holiday-inn-logo-removebg-preview.png"
+                src="/images/logos/holidayinn.svg"
                 alt="Holiday Inn"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
-                src="/images/logos/ihg-logo-removebg.png"
+                src="/images/logos/ihg.svg"
                 alt="IHG"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
-                src="/images/logos/ylg-logo.png"
+                src="/images/logos/ylg.svg"
                 alt="YLG"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/indiawyngaming.svg"
+                alt="NIMHANS"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/plylamcentre.svg"
+                alt="Four Points"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
@@ -56,34 +70,48 @@ const Logos: React.FC = () => {
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
-                src="/images/logos/four-points-logo-removebg.png"
+                src="/images/logos/fourpoints.svg"
                 alt="Four Points"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
-                src="/images/logos/holiday-inn-logo-removebg-preview.png"
+                src="/images/logos/holidayinn.svg"
                 alt="Holiday Inn"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
-                src="/images/logos/ihg-logo-removebg.png"
+                src="/images/logos/ihg.svg"
                 alt="IHG"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
-                src="/images/logos/ylg-logo.png"
+                src="/images/logos/ylg.svg"
                 alt="YLG"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
+                src="/images/logos/indiawyngaming.svg"
+                alt="NIMHANS"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/plylamcentre.svg"
+                alt="Four Points"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+			  <Image
                 src="/images/logos/nimhans-logo-removebg.png"
                 alt="NIMHANS"
                 width={97}
@@ -91,64 +119,43 @@ const Logos: React.FC = () => {
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
-                src="/images/logos/four-points-logo-removebg.png"
+                src="/images/logos/fourpoints.svg"
                 alt="Four Points"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
-                src="/images/logos/holiday-inn-logo-removebg-preview.png"
+                src="/images/logos/holidayinn.svg"
                 alt="Holiday Inn"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
-                src="/images/logos/ihg-logo-removebg.png"
+                src="/images/logos/ihg.svg"
                 alt="IHG"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
-                src="/images/logos/ylg-logo.png"
+                src="/images/logos/ylg.svg"
                 alt="YLG"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
-			   <Image
-                src="/images/logos/nimhans-logo-removebg.png"
+              <Image
+                src="/images/logos/indiawyngaming.svg"
                 alt="NIMHANS"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
               <Image
-                src="/images/logos/four-points-logo-removebg.png"
+                src="/images/logos/plylamcentre.svg"
                 alt="Four Points"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
-              />
-              <Image
-                src="/images/logos/holiday-inn-logo-removebg-preview.png"
-                alt="Holiday Inn"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
-              />
-              <Image
-                src="/images/logos/ihg-logo-removebg.png"
-                alt="IHG"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
-              />
-              <Image
-                src="/images/logos/ylg-logo.png"
-                alt="YLG"
                 width={97}
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"

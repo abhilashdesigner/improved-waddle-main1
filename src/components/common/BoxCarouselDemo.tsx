@@ -112,7 +112,7 @@ export default function BoxCarouselDemo() {
       >
         {debug ? <Bug size={10} /> : <BugOff size={10} />}
       </button>
-      <div className="w-full space-y-[110px] lg:space-y-[105px]">
+      <div className="w-full space-y-[40px] lg:space-y-[105px]">
         <div className="flex justify-center">
           <BoxCarousel
             ref={carouselRef}

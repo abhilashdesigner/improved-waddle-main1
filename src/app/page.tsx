@@ -4,8 +4,8 @@ import Hero from "@/components/landing/Hero";
 import Launch from "@/components/landing/Launch";
 import Logos from "@/components/landing/Logos";
 import MeetCreator from "@/components/landing/MeetCreator";
-import Projects from "@/components/landing/Projects";
 import Services from "@/components/landing/Services";
+import Servicesmobile from "@/components/landing/Servicesmobile";
 import SignupBanner from "@/components/landing/SignupBanner";
 
 export default function Home() {
@@ -14,9 +14,9 @@ export default function Home() {
       <Hero />
       <Launch />
       <ProjectDisplay />
-      <Projects />
       <MeetCreator />
       <Services />
+	  <Servicesmobile />
       <Contact />
       <Logos />
       <SignupBanner />

@@ -121,7 +121,7 @@ export default function Services() {
           Services
         </h2>
         {/* Mobile Layout */}
-        <div className="md:hidden pb-[45px]">
+        <div className="hidden pb-[45px]">
           <div
             ref={scrollRef}
             className="flex overflow-x-auto overflow-y-hidden mt-[10px] no-scrollbar scroll-smooth snap-x snap-proximity"

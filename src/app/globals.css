@@ -1513,7 +1513,7 @@ html.has-scroll-dragging {
 }
 
 .project, .project-box {
-	margin-bottom:180px;
+	margin-bottom:60px;
 	
 }
 .project{
@@ -1523,7 +1523,7 @@ html.has-scroll-dragging {
 	margin-top:180px;
 	}
 .last-project{
-	margin-bottom:0px;
+	margin-bottom:180px;
 }
 .selected-works_title {
 	color:#351A12!important
@@ -1724,7 +1724,7 @@ html.has-scroll-dragging {
 	margin-top:140px
 }
 .last-project {
-    margin-bottom: 0px;
+    margin-bottom:140px;
 }
 .project-marquee h3 p span:first-child {
 	padding-right:20px;
@@ -1808,7 +1808,17 @@ html.has-scroll-dragging {
 	position:relative;
 	top:-5px;
 }
+.servicesmobile .slick-slide {
+        transition: all ease-in-out .3s;
+        transform: translate3d(1%, 0, 0) scale(0.8);
+    }
+.servicesmobile .slick-current {
+        transform: scale(1) !important;
+        opacity: 1;
+    }
+.servicesmobile{ height:0px; overflow:hidden;}	
 @media (max-width: 768px) {
+.servicesmobile{ height:auto;}
 .logos {
 	height: 96px;
 }
@@ -1822,5 +1832,7 @@ input[type="email"], input[type="email"]:focus, form div{
 .arrow-hero-right, .arrow-hero-left{
 	width:50px;
 }
-
+.contact-text p, .contact-btn{
+	width:303px;
+}
 }

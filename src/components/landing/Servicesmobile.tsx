@@ -6,11 +6,11 @@ import Slider from "react-slick";
 export default function servicesmobile() {
   const settings = {
     dots: false,
-infinite: false,
-arrows: false,
-autoplay: false,
-speed: 500,
-cssEase: 'linear',
+	infinite: false,
+	arrows: false,
+	autoplay: false,
+	speed: 500,
+	cssEase: 'linear',
     slidesToShow: 1.1,
     slidesToScroll: 1,
   };

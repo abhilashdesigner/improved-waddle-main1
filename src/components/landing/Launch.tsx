@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Launch() {
   return (
-    <section className="h-[440px] lg:h-[529px] pt-[52px] md:pt-[102px] bg-[#351A12]">
+    <section className="h-[456px] lg:h-[529px] pt-[52px] md:pt-[102px] bg-[#351A12]">
       <div className="px-[30px] md:px-[104px] text-left md:flex md:justify-between">
         {/* Left Column: Text Content */}
         <div className="md:w-[410px] md:flex md:flex-col md:justify-center">

@@ -43,7 +43,7 @@ const GetInTouch: React.FC = () => {
                 </p>
               </div>
             </div>
-            <p className="font-nats mb-[22px] lg:mb-[35px] leading-[19px] lg:leading-9 text-[12px] lg:text-[16px] text-[#F7F5ED]">
+            <p className="font-nats mb-[22px] lg:mb-[35px] w-[300px] lg:w-[455px] leading-[19px] lg:leading-9 text-[12px] lg:text-[16px] text-[#F7F5ED]">
               Ready to bring your vision to life? Lets explore how strategic
               design and modern tech can move your business forward. The first
               step to building better starts here. Reach out to schedule a 30

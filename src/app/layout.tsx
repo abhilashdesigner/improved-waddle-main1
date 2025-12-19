@@ -65,7 +65,7 @@ export default function RootLayout({
       <body suppressHydrationWarning>
         <AppWrapper>
           <Header />
-          <main className="min-h-screen pt-[60px]">{children}</main>
+          <main className="min-h-screen pt-[58px]">{children}</main>
           <Footer />
         </AppWrapper>
       </body>

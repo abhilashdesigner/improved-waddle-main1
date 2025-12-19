@@ -1682,7 +1682,44 @@ html.has-scroll-dragging {
 .mobile-view {
 	display:none
 }
+.project-row{
+	overflow: clip;
+	padding-top: 1px;
+	margin-top: -60px;
+	}
+.project-grid{
+	font-size: 180px;
+    white-space: nowrap;
+	
+	position:relative;
+}
+@keyframes move {
+  from {
+   left:0;
+  }
+  to {
+   left:-100%;
+  }
+}
+.logos img{
+	margin:0px 65px;
+}
+.contact-text{
+	position:relative;
+	top:-2px;
+}
+.contact-btn{
+	position:relative;
+	top:-5px;
+}
 
+.servicesection img{margin:auto; transition:1s ease;width: 100%;}
+.servicesection .slick-current{transform: scale(1)!important; opacity: 1;}
+.servicesection .slick-current.slick-active{transform: translate3d(-5%, 0, 0) scale(0.8);}
+.servicesection .slick-slide {transition: all ease-in-out .3s; transform: translate3d(1%, 0, 0) scale(0.8)} 
+.servicesection .slider{width: 100%;margin: 0px auto;}
+.servicesection .slick-list{overflow: hidden;}
+.servicesection{ height:0px; overflow:hidden;visibility: hidden;}	
 @media (max-width: 768px) {
 .mobile-view {
 	display:contents
@@ -1695,7 +1732,9 @@ html.has-scroll-dragging {
 	display:block;
 	line-height:normal
 }
-
+.project-row {
+    margin-top: -180px;
+}
 .project-marquee h3 span {
 	display:inline-block;
 	color:#351A12;
@@ -1777,48 +1816,7 @@ html.has-scroll-dragging {
 .selected-works .list-projects .project:hover+.project {
 	opacity:1!important
 }
-}
-.project-row{
-	overflow: clip;
-	padding-top: 1px;
-	margin-top: -60px;
-	}
-.project-grid{
-	font-size: 180px;
-    white-space: nowrap;
-	
-	position:relative;
-}
-@keyframes move {
-  from {
-   left:0;
-  }
-  to {
-   left:-100%;
-  }
-}
-.logos img{
-	margin:0px 65px;
-}
-.contact-text{
-	position:relative;
-	top:-2px;
-}
-.contact-btn{
-	position:relative;
-	top:-5px;
-}
-.servicesmobile .slick-slide {
-        transition: all ease-in-out .3s;
-        transform: translate3d(1%, 0, 0) scale(0.8);
-    }
-.servicesmobile .slick-current {
-        transform: scale(1) !important;
-        opacity: 1;
-    }
-.servicesmobile{ height:0px; overflow:hidden;}	
-@media (max-width: 768px) {
-.servicesmobile{ height:auto;}
+.servicesection{ height:auto;visibility: visible;}
 .logos {
 	height: 96px;
 }

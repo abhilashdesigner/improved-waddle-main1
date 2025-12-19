@@ -160,6 +160,153 @@ const Logos: React.FC = () => {
                 height={97}
                 className="w-[97px] h-[97px] object-contain flex-shrink-0"
               />
+			  <Image
+                src="/images/logos/nimhans-logo-removebg.png"
+                alt="NIMHANS"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/fourpoints.svg"
+                alt="Four Points"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/holidayinn.svg"
+                alt="Holiday Inn"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/ihg.svg"
+                alt="IHG"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/ylg.svg"
+                alt="YLG"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/indiawyngaming.svg"
+                alt="NIMHANS"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/plylamcentre.svg"
+                alt="Four Points"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/nimhans-logo-removebg.png"
+                alt="NIMHANS"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/fourpoints.svg"
+                alt="Four Points"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/holidayinn.svg"
+                alt="Holiday Inn"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/ihg.svg"
+                alt="IHG"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/ylg.svg"
+                alt="YLG"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/indiawyngaming.svg"
+                alt="NIMHANS"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/plylamcentre.svg"
+                alt="Four Points"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+			  <Image
+                src="/images/logos/nimhans-logo-removebg.png"
+                alt="NIMHANS"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/fourpoints.svg"
+                alt="Four Points"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/holidayinn.svg"
+                alt="Holiday Inn"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/ihg.svg"
+                alt="IHG"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/ylg.svg"
+                alt="YLG"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/indiawyngaming.svg"
+                alt="NIMHANS"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
+              <Image
+                src="/images/logos/plylamcentre.svg"
+                alt="Four Points"
+                width={97}
+                height={97}
+                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+              />
             </div>
           </div>
         </div>

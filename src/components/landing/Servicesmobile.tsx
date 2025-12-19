@@ -5,18 +5,16 @@ import Slider from "react-slick";
 
 export default function servicesmobile() {
   const settings = {
-    dots: false,
+    slidesToShow: 1.2,
+	slidesToScroll: 1,
+	dots: false,
 	infinite: false,
 	arrows: false,
 	autoplay: false,
-	speed: 500,
-	cssEase: 'linear',
-    slidesToShow: 1.1,
-    slidesToScroll: 1,
+	speed: 500
   };
-
   return (
-  <section className="pb-[54px] px-[30px] w-[100%]  ">
+  <section className="pb-[35px] mt-[8px] pl-[30px] w-[100%] servicesection ">
     <Slider {...settings} className="servicesmobile">
       <div>
 		<Image
@@ -128,6 +126,7 @@ export default function servicesmobile() {
 		<h3 className="font-normal text-[15px] font-nats text-[#351A12] uppercase mt-[23px] mb-[1px]">Creative Direction & Consulting</h3>
 		<p className="text-[12px] font-nats text-[#351A12] whitespace-pre-line">Clients across independent & studio projects:<br />Four Points by Sheraton, Holiday Inn Dhaka City Centre and Marium Niloy Group, Bangkok.</p>
 	  </div>
+	  
     </Slider>
 	</section>
   );

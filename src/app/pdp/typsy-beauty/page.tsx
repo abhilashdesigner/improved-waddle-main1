@@ -1,6 +1,7 @@
 "use client";
 
 import Contact from "@/components/landing/Contact";
+import TypsyProject from "@/components/pdp/TypsyProject";
 import ClientInfo from "@/components/pdp/ClientInfo";
 import DirectionAndExperience from "@/components/pdp/DirectionAndExperience";
 import Foundations from "@/components/pdp/Foundations";
@@ -204,8 +205,7 @@ export default function PDP1() {
           />
         </div>
       </section>
-      <MoreProjects currentProjectId={data.id ?? ""} />
-      {/* <ProjectsList excludeId="pdp1" layout="vertical" /> */}
+	  <TypsyProject />
       <Contact />
     </main>
   );

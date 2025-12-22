@@ -43,7 +43,7 @@ export default function Hero(props: HeroProps) {
       >
         <div className={`w-full text-left p-0 ${props.paddingXl}`}>
           <div
-            className={`flex flex-wrap justify-start xl:gap-x-[42px] md:mb-[5px] ${props.itemGap}`}
+            className={`flex flex-wrap justify-start xl:gap-x-[25px] md:mb-[5px] ${props.itemGap}`}
           >
             {props.area.map((item, index) => (
               <span
@@ -56,12 +56,12 @@ export default function Hero(props: HeroProps) {
             ))}
           </div>
           <h1
-            className={`m-0 font-monthis font-normal text-[48px] lg:text-[54px] leading-[1.23] mb-[20px] ${props.mobileTitleColor} lg:text-[#52160D] [word-spacing:1.5px]`}
+            className={`m-0 font-monthis font-normal text-[48px] lg:text-[54px] leading-[1.23] mb-[38px] ${props.mobileTitleColor} lg:text-[#52160D] [word-spacing:1.5px]`}
           >
             {props.title}
           </h1>
           <p
-            className={`font-nats text-[12px] lg:text-[16px] leading-[25px] md:leading-[34px] text-[#351A12] mx-auto lg:mx-0 ${props.descMarginBottom}`}
+            className={`font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0 ${props.descMarginBottom}`}
           >
             {props.shortDescription}
           </p>

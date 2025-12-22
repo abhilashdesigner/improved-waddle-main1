@@ -17,7 +17,7 @@ export default function Contact() {
     <>
       <div className="flex w-full bg-[#351A12] font-nats overflow-x-hidden px-[30px] py-[45px] lg:px-[50px] lg:py-[50px] xl:px-[104px] xl:py-[40px] desktop-xl:px-[104px] desktop-xl:py-[50px]">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between w-full">
-          <div className="flex flex-col lg:mr-6">
+          <div className="flex flex-col lg:mr-6 contact-box">
             <h2 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0 leading-none lg:-mt-2 lg:ml-1">
               Contact
             </h2>
@@ -26,7 +26,7 @@ export default function Contact() {
             </h2>
           </div>
           <div className="flex flex-col mt-4 lg:mt-0 lg:mr-4 contact-text" >
-            <p className="font-nats text-[12px] lg:text-[16px] text-[#F7F5ED] max-w-[340px]">
+            <p className="font-nats text-[14px] lg:text-[16px] text-[#F7F5ED] max-w-[340px]">
               Ready to bring your vision to life? Let's explore how strategic
               design and modern tech can move your business forward. The first
               step to building better starts here. Reach out to schedule a 30

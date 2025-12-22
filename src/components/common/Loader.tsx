@@ -28,7 +28,7 @@ export default function Loader({
   return (
     <>
       {showLoader && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#F0E5D6]">
+        <div className="fixed hidden inset-0 z-50 flex items-center justify-center bg-[#F0E5D6]">
           <div className="loader">
             <div className="square">
               <div className="mini_square sq-1"></div>

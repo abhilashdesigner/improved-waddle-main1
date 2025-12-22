@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Launch() {
   return (
-    <section className="h-[454px] lg:h-[529px] pt-[52px] md:pt-[102px] bg-[#351A12]">
+    <section className="h-[auto] lg:h-[529px] pt-[52px] pb-[52px] md:pt-[102px] bg-[#351A12]">
       <div className="px-[30px] md:px-[104px] text-left md:flex md:justify-between">
         {/* Left Column: Text Content */}
         <div className="md:w-[410px] md:flex md:flex-col md:justify-center">
@@ -30,7 +30,7 @@ export default function Launch() {
             </div>
             <div className="mt-[12px] md:mt-0 md:pt-[14px]">
               <div className="space-y-6">
-                <p className="font-nats text-[12px] md:text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] pr-1 md:pr-0">
+                <p className="font-nats text-[14px] md:text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] pr-1 md:pr-0">
                   Strategic design solutions that align your visual identity
                   with business goals. Whether you're building from scratch or
                   pivoting, we help brands create impact, communicate clearly

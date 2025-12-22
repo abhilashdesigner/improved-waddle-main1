@@ -183,7 +183,7 @@ export default function PDP1() {
         contentClass="lg:w-[770px] w-full flex items-center justify-start pt-5 lg:pt-0 lg:pr-8 xl:pr-1"
         paddingXl="px-8 py-[40px] lg:p-12 xl:px-[100px] xl:py-[65px]"
       />
-      <section className="flex justify-center items-center pt-[20px] pb-[20px] px-[20px] md:pt-[95px] md:pb-[115px] md:px-[104px] bg-transparent">
+      <section className=" hidden flex justify-center items-center pt-[20px] pb-[20px] px-[20px] md:pt-[95px] md:pb-[115px] md:px-[104px] bg-transparent">
         <div className="relative w-full h-[569px] md:w-[1231px] md:h-[778px]">
           <video
             ref={desktopVideoRef}

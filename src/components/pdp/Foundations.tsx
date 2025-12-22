@@ -49,7 +49,7 @@ export default function Foundations(props: FoundationsProps) {
           </div>
         </div>
       </div>
-      <div className="lg:w-[55%] w-full h-auto px-[30px] lg:p-0">
+      <div className="lg:w-[53%] w-full h-auto px-[30px] lg:p-0">
         <Image
           src={props.image || ""}
           alt={props.pageTitle || ""}
@@ -66,9 +66,9 @@ export default function Foundations(props: FoundationsProps) {
         />
       </div>
       <div
-        className={`hidden lg:w-[45%] w-full bg-[#F0E5D4] lg:flex items-center justify-center ${props.paddingXl}`}
+        className={`hidden lg:w-[47%] w-full bg-[#F0E5D4] lg:flex items-center justify-center`}
       >
-        <div className={`w-full text-left ${props.paddingXl}`}>
+        <div className={`w-full text-left xl:py-0 xl:px-[32px] xl:m-[60px] xl:mb-[8px]`}>
           {props.pageTitle && (
             <h1 className="mb-[14px] mt-0 font-monthis font-normal text-[54px] leading-[1.23]">
               {props.pageTitle}

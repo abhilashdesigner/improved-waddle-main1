@@ -11,7 +11,7 @@ img {
 
 
 .loader {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -1830,7 +1830,9 @@ input[type="email"], input[type="email"]:focus, form div{
 .arrow-hero-right, .arrow-hero-left{
 	width:50px;
 }
-.contact-text p, .contact-btn{
-	width:303px;
+.contact-text p, .contact-btn, .contact-box{
+	width:304px;
+	margin-left:auto;
+	margin-right:auto;
 }
 }

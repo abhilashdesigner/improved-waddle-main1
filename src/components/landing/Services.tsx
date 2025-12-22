@@ -8,61 +8,61 @@ const services = [
     title: "Brand Identity & Strategy",
     description:
       "Clients across independent & studio projects:\nFour Points by Sheraton, India Wyn Gaming, Ocularity Analytics, FA Home, FA Home Junior, Kyphie, Assago, Suneja Towers, Plylam Centre, Ping OEM, Toshana and Equity Planners.",
-    image: "/images/services/brand-identity-strategy.png",
+    image: "/images/services/brand-identity-strategy.jpg",
   },
   {
     title: "Website Design & Development",
     description:
       "Clients across independent & studio projects:\nSennheiser, Mercari India, Grazitti Interactive, NCR Corporation, Typsy Beauty, FA Home, Assago, Redbelly Network, Powr of You and Thingify.",
-    image: "/images/services/website-design-development.png",
+    image: "/images/services/website-design-development.jpg",
   },
   {
     title: "Packaging Design",
     description:
       "Clients across independent & studio projects:\nLongbottom Coffee & Tea, Walden, The Brown Box Bakery, YLG Salon, When Miss Flo Is In Town, FA Home, FA Home Junior and Kyphie.",
-    image: "/images/services/packaging.png",
+    image: "/images/services/packaging.jpg",
   },
   {
     title: "Illustration & Visual Assets",
     description:
       "Clients across independent & studio projects:\nYLG Salon, Janavi India, Typsy Beauty, The Brown Box Bakery, FA Home Junior, Kyphie, Walden and Aditya Shukla- Album Artwork.",
-    image: "/images/services/illustrations-visual-assets.png",
+    image: "/images/services/illustrations-visual-assets.jpg",
   },
   {
     title: "Editorial Design",
     description:
       "Clients across independent & studio projects:\nNIMHANS Bangalore, Four Points by Sheraton, Janavi India, FA Home, Dote Gifts, Titliyan and Casa Amber.",
-    image: "/images/services/editorial-design.png",
+    image: "/images/services/editorial-design.jpg",
   },
   {
     title: "Custom Invitations",
     description:
       "Clients across independent & studio projects:\nWedding Invitations for Devika Reddy & Anirudh Reddy, Wedding Invitations for Rajkirat Singh Chug & Jasmine Kaur Gupta, Janavi India, Ocularity Analytics, Nitika Gujral and AMP Motors.",
-    image: "/images/services/custom-invitation.png",
+    image: "/images/services/custom-invitation.jpg",
   },
   {
     title: "Digital Ads & Campaign Assets",
     description:
       "Clients across independent & studio projects:\nJanavi India, Longbottom Coffee & Tea, AMP Motors, Skin Q, Aayna Skin Clinic, Sancha Tea, FA Home, FA Home Junior, Mauli Cashmere, Casa Amber, Delicut, Dote Gifts, Anata, Décor Remedy, Home Baker, 7 Bazaari and Siddhant Agrawal.",
-    image: "/images/services/digital-ads.png",
+    image: "/images/services/digital-ads.jpg",
   },
   {
     title: "Social Media Creatives",
     description:
       "Clients across independent & studio projects:\nITC, DLF Emporio, Luxor Nano, Sancha Tea, Skin Q, Punjab Jewellers, Organ India, IVWS, Chanakya, Décor Remedy, Home Baker, FA Home, FA Home Junior, Siddhant Agrawal, Anata, Aayna Skin Clinic, Namaskar Ayurved, Saan Design, Janavi India, Dote Gifts, Ocularity Analytics, Titliyan, Casa Amber, Halwasiya Avenue, Nitika Gujral and AMP Motors.",
-    image: "/images/services/social-media.png",
+    image: "/images/services/social-media.jpg",
   },
   {
     title: "Commissioned Paintings",
     description:
       "Clients across independent & studio projects:\nIHG (InterContinental Hotels Group), Holiday Inn, Four Points by Sheraton and Anant Raj.",
-    image: "/images/services/comissioned-paintings.png",
+    image: "/images/services/comissioned-paintings.jpg",
   },
   {
     title: "Creative Direction & Consulting",
     description:
       "Clients across independent & studio projects:\nFour Points by Sheraton, Holiday Inn Dhaka City Centre and Marium Niloy Group, Bangkok.",
-    image: "/images/services/creative-direction.png",
+    image: "/images/services/creative-direction.jpg",
   },
 ];
 

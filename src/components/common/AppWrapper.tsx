@@ -87,7 +87,7 @@ export default function AppWrapper({ children }: AppWrapperProps) {
       <div
         className={
           isInitialLoad || isRouteChanging
-            ? "opacity-0 pointer-events-none"
+            ? "opacity-100"
             : "opacity-100"
         }
       >

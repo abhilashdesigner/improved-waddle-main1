@@ -37,10 +37,10 @@ const MeetCreator: React.FC = () => {
               </p>
             ))}
           {!isExpanded && (
-            <div className="font-nats text-[12px] text-[#351A12] flex justify-center">
+            <div className="font-nats text-[12px] text-[#351A12] ">
               <button
                 onClick={() => setIsExpanded(true)}
-                className="inline-flex w-full h-[30px] justify-center items-center px-6 mt-3 mb-[5px] font-nats font-normal text-[15px] lg:text-[20px] text-[#351A12] uppercase bg-[#D2ADCE]"
+                className="text-[#D2ADCE] hover:text-[#B89BB8] transition-colors cursor-pointer underline"
               >
                 Read More
               </button>

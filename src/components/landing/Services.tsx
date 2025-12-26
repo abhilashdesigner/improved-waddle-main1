@@ -110,7 +110,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="pt-[26px] pb-0 md:pt-0 md:pb-[78px] bg-[#F0E5D6] overflow-x-hidden"
+      className="pt-[7px] pb-0 md:pt-0 md:pb-[20px] bg-[#F0E5D6] overflow-x-hidden"
     >
       <div className="px-[29px] md:px-[104px]">
         {/* Mobile Heading */}
@@ -170,7 +170,7 @@ export default function Services() {
         {/* Desktop Layout */}
         <div className="hidden md:flex items-start pt-[78px]">
           {/* Column 1: Titles */}
-          <ul className="pt-[50px] pb-[50px] mr-[50px]">
+          <ul className="pt-[50px] mr-[50px]">
             {services.map((service, index) => (
               <li
                 key={index}

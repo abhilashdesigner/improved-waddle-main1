@@ -55,9 +55,9 @@ export default function ProjectDisplay({
                   <span></span>
                 </div>
                 <div className="project-heading">
-                  <h3>MORE PROJECTS THAT BROUGHT IDEAS TO LIFE</h3>
+                  <h3>PROJECTS THAT BROUGHT IDEAS TO LIFE</h3>
                 </div>
-                <div className="project-text font-nats text-[14px] md:text-[16px] text-[#351A12] md:text-[#351A12] md:pr-0">
+                <div className="project-text font-nats text-[12px] md:text-[16px] text-[#351A12] md:text-[#351A12] md:pr-0">
                   Each case study reflects intentional design paired with<br className="br-m" />scalable solutions. We have collaborated with forward-<br className="br-m" />
                   thinking <br className="br-d" />brands to translate vision into value, building <br className="br-m" />identities that elevate businesses and evolve with them.
                 </div>
@@ -65,7 +65,7 @@ export default function ProjectDisplay({
 		<div className="project-row">
 			<div className="project-grid bottom-left">
 				<a
-				  href="/project/typsy-beauty"
+				  href="/projects/typsy-beauty"
 				  className="project"
 				>
 				  <div
@@ -91,15 +91,7 @@ export default function ProjectDisplay({
 					   height={100} 
 					  />
 					</div>
-					<div className="project-marquee_img">
-					  <Image 
-					   src="/images/tb3.jpg" 
-					   alt="Media"
-					   width={100}
-					   height={100} 
-					  />
-					</div>
-
+					
 					<h3>
 					  <p>
 						<span>WEB design</span>
@@ -110,6 +102,14 @@ export default function ProjectDisplay({
 
 					<div className="project-marquee_img">
 					  <Image 
+					   src="/images/tb3.jpg" 
+					   alt="Media"
+					   width={100}
+					   height={100} 
+					  />
+					</div>
+					<div className="project-marquee_img">
+					  <Image 
 					   src="/images/tb4.jpg" 
 					   alt="Media"
 					   width={100}
@@ -118,15 +118,7 @@ export default function ProjectDisplay({
 					</div>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/tb1.jpg" 
-					   alt="Media"
-					   width={100}
-					   height={100} 
-					  />
-					</div>
-					<div className="project-marquee_img">
-					  <Image 
-					   src="/images/tb2.jpg" 
+					   src="/images/tb5.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -135,8 +127,8 @@ export default function ProjectDisplay({
 
 					<h3>
 					  <p>
-						<span>Authorship</span>
-						<span>book design</span>
+						<span>WEB design</span>
+						<span>UI/UX redesign</span>
 					  </p>
 					  <div>Typsy Beauty</div>
 					</h3>
@@ -201,7 +193,7 @@ export default function ProjectDisplay({
 			</div>
 			<div className="project-grid bottom-left">
 				<a
-				  href="/project/nimhans"
+				  href="/projects/nimhans"
 				  className="project"
 				>
 				  <div
@@ -214,7 +206,7 @@ export default function ProjectDisplay({
 					
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/book2.jpg" 
+					   src="/images/book1.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -222,7 +214,7 @@ export default function ProjectDisplay({
 					</div>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/book3.jpg" 
+					   src="/images/book2.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -320,7 +312,7 @@ export default function ProjectDisplay({
 			</div>
 			<div className="project-grid bottom-left">
 				<a
-				  href="/project/fa-home"
+				  href="/projects/fa-home"
 				  className="project last-project"
 				>
 				  <div

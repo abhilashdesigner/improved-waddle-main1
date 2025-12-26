@@ -23,7 +23,7 @@ export default function ClientInfo(props: ClientInfoProps) {
       className={`flex flex-col-reverse lg:flex-row w-full font-nats overflow-x-hidden ${props.height}`}
     >
       <div
-        className={`lg:w-[55%] w-full bg-[#351A12] flex items-center justify-center ${props.paddingMobile} ${props.paddingXl}`}
+        className={`lg:w-[55%] w-full bg-[#351A12] flex items-center justify-center :py-[35px] px-[32px] py-[30px] xl:p-[52px]`}
       >
         <div className={`w-full text-left p-0 ${props.paddingXl}`}>
           <h1

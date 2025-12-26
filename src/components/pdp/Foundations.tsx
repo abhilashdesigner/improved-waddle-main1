@@ -28,7 +28,7 @@ export default function Foundations(props: FoundationsProps) {
   return (
     <div className="flex flex-col lg:flex-row w-full font-nats overflow-x-hidden">
       <div
-        className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center ${props.paddingMobileUpper}`}
+        className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] md:py-[40px] py-[30px] `}
       >
         <div className="w-full text-left">
           {props.pageTitle && (
@@ -55,7 +55,7 @@ export default function Foundations(props: FoundationsProps) {
           alt={props.pageTitle || ""}
           width={800}
           height={600}
-          className={`${props.imageClass} hidden lg:block`}
+          className={`w-full h-[400px] lg:w-[740px] md:h-[738px] lg:h-[1120px] object-cover hidden lg:block`}
         />
         <Image
           src={props.imageMobile || props.image || ""}
@@ -66,11 +66,11 @@ export default function Foundations(props: FoundationsProps) {
         />
       </div>
       <div
-        className={`hidden lg:w-[47%] w-full bg-[#F0E5D4] lg:flex items-center justify-center`}
+        className={`hidden lg:w-[47%] w-full bg-[#F0E5D4] lg:flex`}
       >
         <div className={`w-full text-left xl:py-0 xl:px-[32px] xl:m-[60px] xl:mb-[8px]`}>
           {props.pageTitle && (
-            <h1 className="mb-[14px] mt-0 font-monthis font-normal text-[54px] leading-[1.23]">
+            <h1 className="mb-0 mt-0 font-monthis font-normal text-[54px] leading-[1.23]">
               {props.pageTitle}
             </h1>
           )}

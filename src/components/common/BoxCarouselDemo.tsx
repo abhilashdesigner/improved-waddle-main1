@@ -123,9 +123,9 @@ export default function BoxCarouselDemo() {
             onIndexChange={handleIndexChange}
             debug={debug}
             enableDrag
-            perspective={1000}
+            perspective={500}
             autoPlay={true}
-            autoPlayInterval={4000}
+            autoPlayInterval={4500}
           />
         </div>
         <div className="flex gap-6 lg:gap-4 justify-center items-center">

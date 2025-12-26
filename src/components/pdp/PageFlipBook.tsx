@@ -47,7 +47,7 @@ const BlankPage = forwardRef<HTMLDivElement, BlankPageProps>((_, ref) => {
   const { width, height } = useResponsiveDimensions();
   return (
     <div
-      className="page relative shadow-lg bg-white"
+      className="page relative book-border bg-white"
       ref={ref}
       style={{ width: `${width}px`, height: `${height}px` }}
     />
@@ -151,8 +151,8 @@ const PageFlipBook: FC<PageFlipBookProps> = ({ images }) => {
 
   const getButtonColorClass = (disabled: boolean) =>
     disabled
-      ? "bg-gray-300 cursor-not-allowed"
-      : "bg-[#D2ADCE] hover:bg-[#c79bc3]";
+      ? "opacity-40 bg-[#D2ADCE] cursor-not-allowed"
+      : "bg-[#D2ADCE] opacity-1 hover:bg-[#c79bc3]";
 
   return (
     <div className="flex flex-col items-center mx-auto">

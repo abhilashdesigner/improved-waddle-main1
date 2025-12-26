@@ -14,7 +14,7 @@ export default function Menu({ onClose, isOpen }: MenuProps) {
   const menuRef = useRef<HTMLDivElement>(null);
 
   const menuItems = [
-    { name: "PROJECTS", href: "/#projects" },
+    { name: "PROJECTS", href: "/projects" },
     { name: "SERVICES", href: "/services" },
     { name: "MEET THE CREATOR", href: "/meet-creator" },
     { name: "GET IN TOUCH", href: "/get-in-touch" },
@@ -64,14 +64,14 @@ export default function Menu({ onClose, isOpen }: MenuProps) {
           </div>
           <div className="flex flex-col items-center justify-start md:flex-row md:w-[920px] md:pr-[60px] md:-ml-[4px]">
             <Image
-              src="/images/menu/menu1.png"
+              src="/images/menu/menu1.jpg"
               alt="Menu decorative image 1"
               width={410}
               height={328}
               className="w-full h-[284px] md:w-[340px] xl:h-[328px] xl:w-[410px] object-cover"
             />
             <Image
-              src="/images/menu/menu2.png"
+              src="/images/menu/menu2.jpg"
               alt="Menu decorative image 2"
               width={410}
               height={328}

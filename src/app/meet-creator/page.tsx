@@ -11,7 +11,7 @@ export default function MeetCreatorPage() {
     <main className="pt-0 overflow-x-hidden">
       <MeetCreator />
       <section className="w-full flex justify-center items-center">
-        <div className="flex w-full bg-[#351A12] font-nats overflow-x-hidden px-[20px] py-[45px] lg:px-[50px] lg:py-[50px] xl:px-[104px] xl:py-[40px] desktop-xl:px-[104px] desktop-xl:py-[50px]">
+        <div className="flex w-full bg-[#351A12] font-nats overflow-x-hidden px-[20px] py-[20px] pb-0 lg:px-[50px] lg:py-[50px] xl:px-[104px] xl:py-[40px] desktop-xl:px-[104px] desktop-xl:py-[50px]">
             <div className="main-section">
 		<div className="m-sectiom">
 			<div className="m-left-top">
@@ -210,7 +210,7 @@ export default function MeetCreatorPage() {
 						</div>
 					</div>
 				<div className="m-sectiom-2">
-					<div className="m-left-top-2"><h1 className="font-normal text-[64px] lg:text-[96px] font-monthis text-[#ffffff] m-0 p-0 whitespace-nowrap leading-none">The<br />Creator’s<br />Path</h1></div>
+					<div className="m-left-top-2"><h1 className="font-normal text-[64px] lg:text-[96px] font-monthis text-[#ffffff] m-0 p-0 whitespace-nowrap leading-none">The<br />Creator’s<br />Path</h1><div className="arrow-hero-right cursor-pointer"><span></span><span></span></div></div>
 					<div className="m-medium-2">
 					<div>
 					<h3 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Femme le shakti- art exhibition,<br /> paris, france</h3>

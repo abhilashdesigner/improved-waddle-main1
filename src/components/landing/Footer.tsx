@@ -5,7 +5,7 @@ import { SocialIcons } from "../common/SocialIcons";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F0E5D6] px-[28px] py-[32px] md:pl-[93px] md:pr-[104px] md:pt-[50px] md:pb-[36px] md:h-[242px] md:overflow-hidden">
+    <footer className="bg-[#F0E5D6] px-[28px] py-[32px] md:pl-[93px] md:pr-[104px] md:pt-[50px] md:pb-[36px] md:h-[230px] md:overflow-hidden">
       <div className="flex flex-row justify-between items-start md:items-center">
         <div className="flex flex-col items-start md:w-auto">
           <Link href="/" passHref>
@@ -24,26 +24,26 @@ export default function Footer() {
         </div>
         <div className="flex flex-col items-end mt-3 md:-mt-8">
           <Link
-            href="/#projects"
-            className="m-0 p-0 leading-[2] font-normal text-[15px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
+            href="/projects"
+            className="m-0 p-0 leading-[2] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
           >
             PROJECTS
           </Link>
           <Link
             href="/get-in-touch"
-            className="m-0 p-0 leading-[2] font-normal text-[15px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
+            className="m-0 p-0 leading-[2] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
           >
             GET IN TOUCH
           </Link>
           <Link
             href="/services"
-            className="m-0 p-0 leading-[2] font-normal text-[15px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
+            className="m-0 p-0 leading-[2] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
           >
             SERVICES
           </Link>
           <Link
             href="/meet-creator"
-            className="m-0 p-0 leading-[2] font-normal text-[15px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
+            className="md:-mb-0 mb-2 p-0 leading-[2] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
           >
             MEET THE CREATOR
           </Link>

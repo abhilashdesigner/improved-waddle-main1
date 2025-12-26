@@ -68,11 +68,11 @@ export const pdpData: Record<string, PDPData> = {
   pdp1: {
     id: "pdp1",
     displayImages: [
-      "/images/pdp/pdp1/main.png",
-      "/images/pdp/pdp1/overview.png",
-      "/images/pdp/pdp1/gallery1.png",
-      "/images/pdp/pdp1/gallery2.png",
-      "/images/pdp/pdp1/gallery3.png",
+      "/images/pdp/pdp1/main.jpg",
+      "/images/pdp/pdp1/overview.jpg",
+      "/images/pdp/pdp1/gallery1.jpg",
+      "/images/pdp/pdp1/gallery2.jpg",
+      "/images/pdp/pdp1/gallery3.jpg",
     ],
     page1: {
       area: ["Web Design", "UI/UX Redesign", "Email Marketing"],
@@ -80,8 +80,8 @@ export const pdpData: Record<string, PDPData> = {
       shortDescription:
         "A conceptual beauty brand with a narrative of its own, one that extends beyond the product. From email marketing to website experience, every touchpoint was shaped with fastidious intent to reflect a cohesive brand narrative.",
       projectLink: null,
-      image: "/images/pdp/pdp1/main.png",
-      imageMobile: "/images/pdp/pdp1/mobile-main.png",
+      image: "/images/pdp/pdp1/main.jpg",
+      imageMobile: "/images/pdp/pdp1/mobile-main.jpg",
     },
     page2: {
       pageTitle:
@@ -91,12 +91,12 @@ export const pdpData: Record<string, PDPData> = {
       role: "Senior Visual Designer",
       clientBackground:
         "Typsy Beauty partnered with Ocularity Analytics to establish a full-funnel digital ecosystem including end-to-end e-commerce setup, Shopify website design, deployment, management, and email marketing. My team led all design-led initiatives, spanning digital identity, style guides, and user interface design.",
-      image: "/images/pdp/pdp1/main2.png",
-      imageMobile: "/images/pdp/pdp1/mobile-main2.png",
+      image: "/images/pdp/pdp1/main2.jpg",
+      imageMobile: "/images/pdp/pdp1/mobile-main2.jpg",
     },
     page3: {
-      media: "/images/pdp/pdp1/cover3.png",
-      mediaMobile: "/images/pdp/pdp1/mobile-cover3.png",
+      media: "/images/pdp/pdp1/cover3.jpg",
+      mediaMobile: "/images/pdp/pdp1/mobile-cover3.jpg",
     },
     page4: {
       pageTitle: "Brand, Audience And Market Foundations",
@@ -108,12 +108,12 @@ export const pdpData: Record<string, PDPData> = {
         "We conducted an audit of both direct and aspirational competitors like Glossier, Fenty Beauty, ILIA, Gush, and Makeup by Mario to identify opportunity gaps. Narrative-led content architecture and intuitive shade-matching journeys emerged as key differentiators.",
       targetAudience:
         "Typsy Beauty speaks to a new wave of consumers who view makeup as a form of storytelling. Their core audience? Gen Z dreamers with a sharp eye for design, and a desire to stand out. Typsy's multifunctional, high-quality product line answers that call. Our digital transformation aimed to showcase Typsy's passionate community.",
-      image: "/images/pdp/pdp1/main4.png",
-      imageMobile: "/images/pdp/pdp1/mobile-main4.png",
+      image: "/images/pdp/pdp1/main4.jpg",
+      imageMobile: "/images/pdp/pdp1/mobile-main4.jpg",
     },
     page5: {
-      image: "/images/pdp/pdp1/cover5.png",
-      imageMobile: "/images/pdp/pdp1/mobile-cover5.png",
+      image: "/images/pdp/pdp1/cover5.jpg",
+      imageMobile: "/images/pdp/pdp1/mobile-cover5.jpg",
     },
     page6: {
       pageTitle: "Design And Experience Strategy",
@@ -125,8 +125,8 @@ export const pdpData: Record<string, PDPData> = {
         "Great design is not just visual, it is visceral. Typsy's digital transformation was shaped by the principles of neuroaesthetics and experience design. By prioritising human response over aesthetics, we crafted experiences that leave a mark, spark memory, and ripple far beyond a single scroll or click. This ethos informed every layer of the interface, from soft gradients and fluid forms to pastel overlays that channelled Typsy's signature aesthetic: boundlessly dreamy, with an edge of drama. ",
       techPerformance:
         "Collaborating closely with the dev team, layout behaviour and navigation logistics were mapped meticulously across breakpoints to ensure stability across devices. Front-end assets were optimised for performance: lazy-loading was used where applicable, media was compressed without loss in quality, and animations were kept lightweight to maintain smooth transitions.",
-      image: "/images/pdp/pdp1/main6.png",
-      imageMobile: "/images/pdp/pdp1/mobile-main6.png",
+      image: "/images/pdp/pdp1/main6.jpg",
+      imageMobile: "/images/pdp/pdp1/mobile-main6.jpg",
     },
     page7: {
       pageTitle: "Website As The Canvas",
@@ -145,11 +145,11 @@ export const pdpData: Record<string, PDPData> = {
   pdp2: {
     id: "pdp2",
     displayImages: [
-      "/images/pdp/pdp2/main.png",
-      "/images/pdp/pdp2/overview.png",
-      "/images/pdp/pdp2/gallery1.png",
-      "/images/pdp/pdp2/gallery2.png",
-      "/images/pdp/pdp2/gallery3.png",
+      "/images/pdp/pdp2/main.jpg",
+      "/images/pdp/pdp2/overview.jpg",
+      "/images/pdp/pdp2/gallery1.jpg",
+      "/images/pdp/pdp2/gallery2.jpg",
+      "/images/pdp/pdp2/gallery3.jpg",
     ],
     page1: {
       area: ["Authorship", "Book Design", "Mental Health"],
@@ -157,8 +157,8 @@ export const pdpData: Record<string, PDPData> = {
       shortDescription:
         "Written and designed for the National Institute of Mental Health and Neurosciences (NIMHANS), Numbing Exhilaration discloses mysteries of a bipolar experience through a fictional narrative, highlighting the healing potential of adaptable lifestyle alternatives.",
       projectLink: null,
-      image: "/images/pdp/pdp2/main.png",
-      imageMobile: "/images/pdp/pdp2/mobile-main.png",
+      image: "/images/pdp/pdp2/main.jpg",
+      imageMobile: "/images/pdp/pdp2/mobile-main.jpg",
     },
     page2: {
       pageTitle:
@@ -168,12 +168,12 @@ export const pdpData: Record<string, PDPData> = {
       role: "Author & Designer",
       clientBackground:
         "In collaboration with the Psychosis Department at NIMHANS and guided by patients’ lived experiences, I wrote Numbing Exhilaration, a graphic novel that uses experimental typography and fiction to reimagine how Bipolar Disorder is understood and spoken of in India. Displayed in the waiting room of Dr. Murali Dhawan, it offers pragmatic coping strategies, making clinical knowledge accessible. ",
-      image: "/images/pdp/pdp2/main2.png",
-      imageMobile: "/images/pdp/pdp2/mobile-main2.png",
+      image: "/images/pdp/pdp2/main2.jpg",
+      imageMobile: "/images/pdp/pdp2/mobile-main2.jpg",
     },
     page3: {
-      media: "/images/pdp/pdp2/cover3.png",
-      mediaMobile: "/images/pdp/pdp2/mobile-cover3.png",
+      media: "/images/pdp/pdp2/cover3.jpg",
+      mediaMobile: "/images/pdp/pdp2/mobile-cover3.jpg",
     },
     page4: {
       pageTitle: null,
@@ -181,12 +181,12 @@ export const pdpData: Record<string, PDPData> = {
         "In our everyday lives, everyone experiences ups and downs every now and then. Transient periods of moodiness, unrelated to any psychiatric diagnosis, are common in most people.  But bipolar disorder is an amplification of these ordinary shifts. It is a chronic mood disorder that affects 0.4% to 0.6% of India’s population. Studies indicate that nearly 1 in 3 diagnosed have attempted suicide at least once. Yet, it remains shrouded in stigma.",
       theChallenge:
         "Bipolar disorder in India is not just under-diagnosed; it is perilously overlooked. Many still assume that medication alone can manage the condition, disregarding the effectiveness of therapies. This lack of awareness leaves patients and caregivers ill-equipped to navigate the disorder, and such persistent barriers underscore the urgent need to address stigma and interventions that translate clinical knowledge into accessible, practical guidance.",
-      image: "/images/pdp/pdp2/main4.png",
-      imageMobile: "/images/pdp/pdp2/mobile-main4.png",
+      image: "/images/pdp/pdp2/main4.jpg",
+      imageMobile: "/images/pdp/pdp2/mobile-main4.jpg",
     },
     page5: {
-      image: "/images/pdp/pdp2/cover5.png",
-      imageMobile: "/images/pdp/pdp2/mobile-cover5.png",
+      image: "/images/pdp/pdp2/cover5.jpg",
+      imageMobile: "/images/pdp/pdp2/mobile-cover5.jpg",
     },
     page6: {
       pageTitle: null,
@@ -194,13 +194,13 @@ export const pdpData: Record<string, PDPData> = {
         "Numbing Exhilaration seeks to counter that stigma. More than a guide, it is a bridge- equipping patients and caregivers with pragmatic coping mechanisms that can be adapted alongside therapy and medication. Displayed in the waiting room of Dr. Murali Dhawan at the Psychosis Department of NIMHANS, the book directly engages those for whom this knowledge is most urgent: patients, caregivers, and individuals seeking early recognition of symptoms.",
       theVisualNarrative:
         "Numbing Exhilaration unfolds through layered storytelling, bringing awareness to how symptoms manifest and episodes cycle, exploring both their terrors and their cruel allure alongside everyday struggles. The design incorporates experimental typography as voice and emotion, shifting through manipulated structures and hand-drawn compositions to mirror the disorder’s dualities.",
-      image: "/images/pdp/pdp2/main6.png",
-      imageMobile: "/images/pdp/pdp2/mobile-main6.png",
+      image: "/images/pdp/pdp2/main6.jpg",
+      imageMobile: "/images/pdp/pdp2/mobile-main6.jpg",
     },
     page7: {
       finalDirection: null,
-      image: "/images/pdp/pdp2/cover7.png",
-      imageMobile: "/images/pdp/pdp2/mobile-cover7.png",
+      image: "/images/pdp/pdp2/cover7.jpg",
+      imageMobile: "/images/pdp/pdp2/mobile-cover7.jpg",
     },
     page8: {
       media: "/videos/pdp2/final.mp4",
@@ -214,11 +214,11 @@ export const pdpData: Record<string, PDPData> = {
   pdp3: {
     id: "pdp3",
     displayImages: [
-      "/images/pdp/pdp3/main.png",
-      "/images/pdp/pdp3/main2.png",
-      "/images/pdp/pdp3/cover3.png",
-      "/images/pdp/pdp3/main4.png",
-      "/images/pdp/pdp3/cover5.png",
+      "/images/pdp/pdp3/main.jpg",
+      "/images/pdp/pdp3/main2.jpg",
+      "/images/pdp/pdp3/cover3.jpg",
+      "/images/pdp/pdp3/main4.jpg",
+      "/images/pdp/pdp3/cover5.jpg",
     ],
     page1: {
       area: ["Brand Identity", "Web Design", "UI/UX Redesign"],
@@ -226,8 +226,8 @@ export const pdpData: Record<string, PDPData> = {
       shortDescription:
         "As a lifestyle brand that honours meticulous craftsmanship in home décor, FA Home sought to amplify its digital presence to complement the brand experience at its retail store in DLF Camellias.",
       projectLink: "https://shopfahome.com/",
-      image: "/images/pdp/pdp3/main.png",
-      imageMobile: "/images/pdp/pdp3/mobile-main.png",
+      image: "/images/pdp/pdp3/main.jpg",
+      imageMobile: "/images/pdp/pdp3/mobile-main.jpg",
     },
     page2: {
       pageTitle:
@@ -237,12 +237,12 @@ export const pdpData: Record<string, PDPData> = {
       role: "Head of Design",
       clientBackground:
         "FA Home approached Ocularity Analytics to re-envision its digital ecosystem: from designing a flagship e-commerce store to crafting a uniquely positioned sub-brand, FA Home Junior. The result was a dual-site experience where both brands retained distinct identities, unified by a synergised design DNA.",
-      image: "/images/pdp/pdp3/main2.png",
-      imageMobile: "/images/pdp/pdp3/mobile-main2.png",
+      image: "/images/pdp/pdp3/main2.jpg",
+      imageMobile: "/images/pdp/pdp3/mobile-main2.jpg",
     },
     page3: {
-      media: "/images/pdp/pdp3/cover3.png",
-      mediaMobile: "/images/pdp/pdp3/mobile-cover3.png",
+      media: "/images/pdp/pdp3/cover3.jpg",
+      mediaMobile: "/images/pdp/pdp3/mobile-cover3.jpg",
     },
     page4: {
       pageTitle: "Brand, Audience And Market Foundations",
@@ -254,12 +254,12 @@ export const pdpData: Record<string, PDPData> = {
         "In a fragmented home décor market led by global names like H&M Home, West Elm, and Zara Home, FA Home stands apart by blending craftsmanship with storytelling, where others prioritise scale. Its dual-brand architecture extends this vision into the growing niche of design-conscious families and personalised gifting.",
       targetAudience:
         "FA Home speaks to a community of aesthetes who see their living spaces as a true reflection of self, cherishing artisanal mastery. FA Home Junior carries this ethos to modern parents and thoughtful gift-givers, offering curated pieces for baby showers and children's spaces.",
-      image: "/images/pdp/pdp3/main4.png",
-      imageMobile: "/images/pdp/pdp3/mobile-main4.png",
+      image: "/images/pdp/pdp3/main4.jpg",
+      imageMobile: "/images/pdp/pdp3/mobile-main4.jpg",
     },
     page5: {
-      image: "/images/pdp/pdp3/cover5.png",
-      imageMobile: "/images/pdp/pdp3/mobile-cover5.png",
+      image: "/images/pdp/pdp3/cover5.jpg",
+      imageMobile: "/images/pdp/pdp3/mobile-cover5.jpg",
     },
     page6: {
       pageTitle: "Design And Experience Strategy",
@@ -271,8 +271,8 @@ export const pdpData: Record<string, PDPData> = {
         "The visual narrative of FA Home translates its structured UX into a rich, curation-centric experience. Collection showcases employ a collage-style design, featuring high-fidelity shoots to facilitate product discovery. FA Home Juniors builds on the same structural backbone while introducing playful watercolour animations and nuanced visual cues that resonate with a younger audience. Together, the dual-branding strategy leverages shared UX rigour while tailoring the design voice: FA Home appeals to the discerning, design-conscious connoisseur, and Juniors emphasises trust, safety, and everyday comfort.",
       techPerformance:
         "Collaborating with the dev team, we maintained a responsive 12-column layout with margin-safe zones. Each feature was calibrated to optimise browsing speed, retention and conversion. The interface was structured to prioritise intuitive navigation and a streamlined checkout flow, enhancing user engagement and conversion rates while maintaining FA Home's premium brand experience.",
-      image: "/images/pdp/pdp3/main6.png",
-      imageMobile: "/images/pdp/pdp3/mobile-main6.png",
+      image: "/images/pdp/pdp3/main6.jpg",
+      imageMobile: "/images/pdp/pdp3/mobile-main6.jpg",
     },
     page7: {
       pageTitle: "Digital Experience Architecture",

@@ -17,7 +17,7 @@ const GetInTouch: React.FC = () => {
   return (
     <>
       <div className="flex flex-col-reverse lg:flex-row w-full font-nats overflow-hidden">
-        <div className="lg:w-full lg:h-[625px] xl:w-[659px] xl:h-[647px] w-full bg-[#351A12] flex items-center justify-center py-[40px] pr-[18px] lg:p-[15px] xl:p-[32px] desktop-xl:p-[52px]">
+        <div className="lg:w-full lg:h-[625px] xl:w-[659px] xl:h-[647px] w-full bg-[#351A12] flex items-center justify-center py-[40px] pr-[0px] lg:p-[15px] xl:p-[32px] desktop-xl:p-[52px]">
           <div className="contact-box text-left p-0 lg:p-[15px] xl:p-[32px] desktop-xl:pl-[52px] desktop-xl:pr-[47px]">
             <h1 className="hidden lg:block m-0 lg:-mt-[6px] font-nats font-normal text-[15px] lg:text-[20px] mb-1 uppercase leading-none text-[#F7F5ED]">
               Contact

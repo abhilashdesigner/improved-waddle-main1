@@ -578,7 +578,12 @@ input[type="email"]:focus {
     width: 100%;
     margin-top: -13px;
 }
-
+.m-sectiom-2 .arrow-hero-right{
+	margin-left:36px!important;
+}
+.m-sectiom-2 .arrow-hero-right, .m-sectiom-2 .arrow-hero-right span{
+	background-color: #d2adce;
+}
 .m-medium-2 {
     width: 40%;
     position: relative;
@@ -1271,6 +1276,9 @@ input[type="email"]:focus {
    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
    transform-origin: center center !important;
 }
+.book-border{
+	border: 1px solid #D2ADCE;
+}
 .project-video img {
    width: 100%;
 }
@@ -1532,7 +1540,6 @@ html.has-scroll-dragging {
 .project-marquee h3 {
 	padding:0 15px;
 	margin: auto;
-	text-transform:uppercase
 }
 
 .project-marquee h3 span {
@@ -1719,7 +1726,29 @@ html.has-scroll-dragging {
 .servicesection .slick-slide {transition: all ease-in-out .3s; transform: translate3d(1%, 0, 0) scale(0.8)} 
 .servicesection .slider{width: 100%;margin: 0px auto;}
 .servicesection .slick-list{overflow: hidden;}
-.servicesection{ height:0px; overflow:hidden;visibility: hidden;}	
+.servicesection{ height:0px; overflow:hidden;visibility: hidden;}
+.booksmobile .slick-dots li button:before{
+	font-size: 0px!important;
+}
+.booksmobile .slick-dots li button {
+    width: 10px!important;
+    height: 10px!important;
+    padding: 5px;
+    font-size: 0!important;
+    line-height: 0;
+    display: block;
+    background: #d2adce!important;
+    opacity: 0.4;
+}
+.booksmobile .slick-dots li.slick-active button {
+    opacity: 1;
+}
+.booksmobile .slick-dots li {
+    margin: 0 0px!important;
+}
+.booksmobile .slick-dots {
+    bottom: -35px;
+}
 @media (max-width: 768px) {
 .mobile-view {
 	display:contents

@@ -7,6 +7,8 @@ import Image from "next/image";
 import Script from "next/script";
 
 
+
+
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
 }
@@ -45,6 +47,7 @@ export default function ProjectDisplay({
 
     return () => ctx.revert();
   }, [firstProject]);
+
 
   return (
   
@@ -171,6 +174,21 @@ export default function ProjectDisplay({
 					   height={100} 
 					  />
 					</div>
+					<div className="project-marquee_img">
+					  <Image 
+					   src="/images/book3.jpg" 
+					   alt="Media"
+					   width={100}
+					   height={100} 
+					  />
+					</div>
+					<h3>
+					  <p>
+						<span>Authorship</span>
+						<span>book design</span>
+					  </p>
+					  <div>NIMHANS</div>
+					</h3>
 					<div className="project-marquee_img">
 					  <Image 
 					   src="/images/book3.jpg" 

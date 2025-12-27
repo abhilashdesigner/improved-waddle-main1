@@ -68,6 +68,7 @@ export default function PDP2() {
         itemGap="gap-x-5"
         mobileTitleColor="text-[#351A12]"
       />
+	  
       <ClientInfo
         pageTitle={data.page2.pageTitle}
         clientBackground={data.page2.clientBackground}
@@ -82,6 +83,7 @@ export default function PDP2() {
         paddingMobile="py-[35px] px-[29.9px]"
         paddingXl="xl:px-[54px] xl:py-[52px]"
       />
+	  
       <section className="w-full flex justify-center items-center">
         <Image
           src={data.page3.media ?? ""}
@@ -98,6 +100,7 @@ export default function PDP2() {
           className="lg:hidden w-full h-[400px] md:h-[738px] lg:h-full object-cover"
         />
       </section>
+	  
 	  <div className="flex flex-col lg:flex-row w-full font-nats overflow-x-hidden">
 	  <div className="lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] md:py-[40px] py-[30px] ">
 	  <div className="w-full text-left">
@@ -132,9 +135,14 @@ export default function PDP2() {
 	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Bipolar disorder in India is not just under-diagnosed; it is perilously overlooked. Many still assume that medication alone can manage the condition, disregarding the effectiveness of therapies. This lack of awareness leaves patients and caregivers ill-equipped to navigate the disorder, and such persistent barriers underscore the urgent need to address stigma and interventions that translate clinical knowledge into accessible, practical guidance.</p>
 	  </div>
 	  </div></div></div>
-	  <div className="lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pt-[26px] pb-[40px] "><div className="w-full text-left"><div className="flex flex-col"><div className="mt-5 xl:mt-[30px] mt-[20px]"><h2 className="mb-15 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Challenge</h2><p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Bipolar disorder in India is not just under-diagnosed; it is perilously overlooked. Many still assume that medication alone can manage the condition, disregarding the effectiveness of therapies. This lack of awareness leaves patients and caregivers ill-equipped to navigate the disorder, and such persistent barriers underscore the urgent need to address stigma and interventions that translate clinical knowledge into accessible, practical guidance.</p></div></div></div></div></div>
+	  <div className="lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pt-[26px] pb-[40px] ">
+	  <div className="w-full text-left"><div className="flex flex-col">
+	  <div className="mt-5 xl:mt-[30px] mt-[20px]">
+	  <h2 className="mb-15 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Challenge</h2>
+	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Bipolar disorder in India is not just under-diagnosed; it is perilously overlooked. Many still assume that medication alone can manage the condition, disregarding the effectiveness of therapies. This lack of awareness leaves patients and caregivers ill-equipped to navigate the disorder, and such persistent barriers underscore the urgent need to address stigma and interventions that translate clinical knowledge into accessible, practical guidance.</p></div>
+	  </div></div></div></div>
       
-      <section className="w-full flex justify-center items-center bg-white">
+      <section className="w-full justify-center items-center bg-white">
         <Image
           src={data.page5.image ?? ""}
           alt="Process"
@@ -150,6 +158,7 @@ export default function PDP2() {
           className="lg:hidden w-full h-[400px] md:h-[738px] lg:h-full object-cover"
         />
       </section>
+	  
       <Strategy
         pageTitle={data.page6.pageTitle ?? ""}
         contentSections={strategyContent}
@@ -176,7 +185,7 @@ export default function PDP2() {
         contentClass={null}
         paddingXl={null}
       />
-      <section className="hidden lg:flex flex flex-col justify-center items-center px-[11px] py-[49px] md:p-[45px] lg:py-[75px] lg:px-[62px] xl:py-[94px] xl:px-[172px] bg-transparent">
+      <section className="hidden lg:flex flex flex-col justify-center items-center px-[11px] pt-[49px] md:p-[45px] md:pb-[0px] lg:pt-[75px] lg:px-[62px] xl:pt-[94px] xl:px-[172px] bg-transparent">
         <div className="relative w-full lg:w-[900px] xl:w-[1096px]">
           <PageFlipBook
             images={[
@@ -199,7 +208,7 @@ export default function PDP2() {
         </div>
       </section>
 	  <Bookslidermobile />
-      <NimhansProject />
+	  <NimhansProject />
       <Contact />
     </main>
   );

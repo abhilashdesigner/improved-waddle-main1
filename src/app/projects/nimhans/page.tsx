@@ -74,7 +74,6 @@ export default function PDP2() {
         clientBackground={data.page2.clientBackground}
         height="lg:h-[720px]"
         itemGap="gap-y-[9px] md:gap-y-4 lg:gap-x-[40px]"
-		itemHide="hidden"
         role={data.page2.role}
         image={data.page2.image ?? ""}
         imageMobile={data.page2.imageMobile ?? ""}

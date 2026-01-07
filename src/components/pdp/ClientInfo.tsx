@@ -42,18 +42,21 @@ export default function ClientInfo(props: ClientInfoProps) {
                 {props.industry || "No industry information available."}
               </p>
             </div>
-            <div className={`${props.itemHide}`}>
+            
               {props.team && (
                 <>
+				<div>
                   <h2 className="m-0 font-nats font-normal text-[15px] lg:text-[20px] text-[#F7F5ED] uppercase mb-[10px]">
                     Team
                   </h2>
                   <p className="font-nats font-normal text-[12px] lg:text-[16px] text-[#F7F5ED]">
                     {props.team}
                   </p>
+				  </div>
                 </>
+				
               )}
-            </div>
+            
             <div>
               <h2 className="m-0 font-nats font-normal text-[15px] lg:text-[20px] text-[#F7F5ED] uppercase mb-[10px]">
                 Role

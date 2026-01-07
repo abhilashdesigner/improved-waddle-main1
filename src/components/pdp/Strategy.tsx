@@ -10,7 +10,8 @@ interface StrategyProps {
   image: string | null;
   imageMobile?: string;
   imageClass: string;
-  nimhansStrategyMobile: string;
+  nimhansStrategyMobile: string | null;
+  nimhansStrategy: string | null;
   paddingMobileUpper: string;
   paddingMobileLower: string;
   paddingXl: string;

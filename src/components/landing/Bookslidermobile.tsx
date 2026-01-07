@@ -16,6 +16,7 @@ export default function booksmobile() {
   
   return (
   <section className="pb-[35px] mt-[35px] w-[100%] block lg:hidden">
+  <h2 className="mb-[33px] font-nats text-center font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">Some pages are omitted from this book preview</h2>
     <Slider {...settings} className="booksmobile">
       <div>
 		<Image

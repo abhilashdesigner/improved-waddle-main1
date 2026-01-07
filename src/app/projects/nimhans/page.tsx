@@ -187,8 +187,10 @@ export default function PDP2() {
         contentClass={null}
         paddingXl={null}
       />
-      <section className="hidden lg:flex flex flex-col justify-center items-center px-[11px] pt-[49px] md:p-[45px] md:pb-[0px] lg:pt-[75px] lg:px-[62px] xl:pt-[94px] xl:px-[172px] bg-transparent">
-        <div className="relative w-full lg:w-[900px] xl:w-[1096px]">
+	  
+      <section className="hidden lg:flex flex flex-col justify-center items-center px-[11px] pt-[49px] md:p-[45px] md:pb-[0px] lg:pt-[40px] lg:px-[62px] xl:pt-[50px] xl:px-[172px] bg-transparent">
+        <h2 className="mt-0 pb-[49px] md:pb-[30px] font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">Some pages are omitted from this book preview</h2>
+		<div className="relative w-full lg:w-[900px] xl:w-[1096px]">
           <PageFlipBook
             images={[
               "/images/pdp/pdp2/book/2.jpg",

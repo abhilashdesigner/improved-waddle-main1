@@ -65,7 +65,7 @@ export default function ProjectDisplay({
 		<div className="project-row">
 			<div className="project-grid bottom-left">
 				<a
-				  href="/projects/nimhans"
+				  href="/projects/typsy-beauty"
 				  className="project mt-[80px] md:ml-[45%] ml-[110px]"
 				>
 				  <div

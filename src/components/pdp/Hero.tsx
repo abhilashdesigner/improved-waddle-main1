@@ -39,7 +39,7 @@ export default function Hero(props: HeroProps) {
         />
       </div>
       <div
-        className={`lg:w-[45%] w-full bg-[#F0E5D4] flex items-center justify-center ${props.paddingMobile} ${props.paddingXl}`}
+        className={`lg:w-[45%] w-full bg-[#F0E5D4] flex items-center justify-center p-[30px] py-[48px] ${props.paddingXl}`}
       >
         <div className={`w-full text-left p-0 ${props.paddingXl}`}>
           <div

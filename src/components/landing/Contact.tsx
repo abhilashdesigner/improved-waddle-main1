@@ -50,11 +50,10 @@ export default function Contact() {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 backdrop-blur-sm">
           <button
             onClick={handleCloseCalendly}
-            className="fixed top-4 right-4 z-20 text-white text-xl font-bold"
+            className="fixed top-4 right-4 z-20 text-white text-xl font-bold close-icon"
           >
-            ×
           </button>
-          <div className="w-full h-full max-w-5xl max-h-[95vh] m-4">
+          <div className="w-full h-full max-w-5xl max-h-[95vh] mt-12 md:mt-[4]">
             <iframe
               src="https://calendly.com/milibajaj-work/30min?embed_domain=localhost&embed_type=Inline"
               width="100%"

@@ -28,7 +28,7 @@ export default function Foundations(props: FoundationsProps) {
   return (
     <div className="flex flex-col lg:flex-row w-full font-nats overflow-x-hidden">
       <div
-        className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] md:py-[40px] py-[30px] `}
+        className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] py-[48px] `}
       >
         <div className="w-full text-left">
           {props.pageTitle && (
@@ -49,13 +49,13 @@ export default function Foundations(props: FoundationsProps) {
           </div>
         </div>
       </div>
-      <div className="lg:w-[53%] w-full h-auto px-[30px] lg:p-0">
+      <div className="flex lg:w-[53%] w-full h-auto px-[30px] lg:p-0">
         <Image
           src={props.image || ""}
           alt={props.pageTitle || ""}
           width={800}
           height={600}
-          className={`w-full h-[400px] lg:w-[740px] md:h-[738px] lg:h-[1120px] object-cover hidden lg:block`}
+          className={`w-full lg:w-[740px] object-cover hidden lg:block`}
         />
         <Image
           src={props.imageMobile || props.image || ""}
@@ -66,9 +66,9 @@ export default function Foundations(props: FoundationsProps) {
         />
       </div>
       <div
-        className={`hidden lg:w-[47%] w-full bg-[#F0E5D4] lg:flex`}
+        className={`hidden lg:w-[47%] w-full bg-[#F0E5D4] lg:flex items-center`}
       >
-        <div className={`w-full text-left xl:py-0 xl:px-[32px] xl:m-[60px] xl:mb-[8px]`}>
+        <div className={`w-full text-left md:px-[80px] py-[48px] md:mb-[45px] md:mt-[37px]`}>
           {props.pageTitle && (
             <h1 className="mb-0 mt-0 font-monthis font-normal text-[54px] leading-[1.23]">
               {props.pageTitle}
@@ -89,7 +89,7 @@ export default function Foundations(props: FoundationsProps) {
       </div>
       {mobileContentBottom.length > 0 && (
         <div
-          className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center ${props.paddingMobileLower} `}
+          className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pb-[48px] pt-[20px]`}
         >
           <div className="w-full text-left">
             <div className="flex flex-col">

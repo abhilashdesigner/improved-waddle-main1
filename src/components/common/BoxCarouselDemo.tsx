@@ -129,8 +129,8 @@ export default function BoxCarouselDemo() {
           />
         </div>
         <div className="flex gap-6 lg:gap-4 justify-center items-center">
-		  <div className="arrow-hero-left cursor-pointer" onClick={handlePrev}><span></span><span></span></div>
-		  <div className="arrow-hero-right cursor-pointer" onClick={handleNext}><span></span><span></span></div>
+		  <div className="cursor-pointer" onClick={handlePrev}><div className="arrow-hero-left" ><span></span><span></span></div></div>
+		  <div className="cursor-pointer" onClick={handleNext}><div className="arrow-hero-right" ><span></span><span></span></div></div>
         </div>
       </div>
     </div>

@@ -446,6 +446,8 @@ input:-webkit-autofill:active {
   -webkit-text-fill-color: #fff !important;
   background-color: transparent !important;
   transition: background-color 5000s ease-in-out 0s;
+  font-size: 16px!important;
+  font-family: Nats, sans-serif!important;
 }
 
 /* Subscribe form input styling - remove curves and keep only bottom line */
@@ -1493,7 +1495,6 @@ html.has-scroll-dragging {
 }
 .project-box {
 	display:flex;
-	margin:0 50px;
 	align-items:center;
 	position:relative
 }
@@ -1519,19 +1520,15 @@ html.has-scroll-dragging {
 .selected-works .list-projects .project::before {
 	display:none
 }
-
-.project, .project-box {
-	margin-bottom:60px;
-	
+.close-icon{
+	background-image: url(/images/close-icon.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 15px;
 }
 .project{
 	display: block;
-}
-.project, .project-box{
-	margin-top:180px;
-	}
-.last-project{
-	margin-bottom:180px;
 }
 .selected-works_title {
 	color:#351A12!important
@@ -1692,12 +1689,9 @@ html.has-scroll-dragging {
 .project-row{
 	overflow: clip;
 	padding-top: 1px;
-	margin-top: -60px;
 	}
 .project-grid{
-	font-size: 180px;
     white-space: nowrap;
-	
 	position:relative;
 }
 @keyframes move {
@@ -1749,11 +1743,16 @@ html.has-scroll-dragging {
 .booksmobile .slick-dots {
     bottom: -35px;
 }
+.nimhansstrategy div:first-child, .nimhansstrategy div:first-child h2 {
+	margin-top:0px;
+}
 @media (max-width: 768px) {
 .mobile-view {
 	display:contents
 }
-
+.mobile-none{
+display:none;	
+}
 .project-marquee h3 div {
 	font-size:40px;
 	color:#351A12;
@@ -1761,9 +1760,7 @@ html.has-scroll-dragging {
 	display:block;
 	line-height:normal
 }
-.project-row {
-    margin-top: -180px;
-}
+
 .project-marquee h3 span {
 	display:inline-block;
 	color:#351A12;
@@ -1781,19 +1778,6 @@ html.has-scroll-dragging {
 	height:auto
 }
 
-.project-box {
-	margin:0 30px
-}
-
-.project,.project-box {
-	margin-bottom:140px
-}
-.project-box {
-	margin-top:140px
-}
-.last-project {
-    margin-bottom:140px;
-}
 .project-marquee h3 p span:first-child {
 	padding-right:20px;
 	padding-bottom:0
@@ -1864,4 +1848,7 @@ input[type="email"], input[type="email"]:focus, form div{
 	margin-left:auto;
 	margin-right:auto;
 }
+.mobilenimhansstrategy div:first-child h2, .mobilenimhansstrategy div:first-child {
+	margin-top:0px;
+} 
 }

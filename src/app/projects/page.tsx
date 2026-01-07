@@ -1,13 +1,13 @@
 import Contact from "@/components/landing/Contact";
 import Logos from "@/components/landing/Logos";
-import ProjectDisplay from "@/components/common/ProjectDisplay";
+import ProjectPage from "@/components/common/ProjectPage";
 import SignupBanner from "@/components/landing/SignupBanner";
 import React from "react";
 
 const ServicesPage: React.FC = () => {
   return (
     <main>
-      <ProjectDisplay />
+      <ProjectPage />
       <Contact />
       <Logos />
       <SignupBanner />

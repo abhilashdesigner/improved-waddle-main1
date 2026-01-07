@@ -25,25 +25,25 @@ export default function Footer() {
         <div className="flex flex-col items-end mt-3 md:-mt-8">
           <Link
             href="/projects"
-            className="m-0 p-0 leading-[2] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
+            className="m-0 p-0 leading-[1.5] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
           >
             PROJECTS
           </Link>
           <Link
             href="/get-in-touch"
-            className="m-0 p-0 leading-[2] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
+            className="m-0 p-0 leading-[1.5] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
           >
             GET IN TOUCH
           </Link>
           <Link
             href="/services"
-            className="m-0 p-0 leading-[2] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
+            className="m-0 p-0 leading-[1.5] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
           >
             SERVICES
           </Link>
           <Link
             href="/meet-creator"
-            className="md:-mb-0 mb-2 p-0 leading-[2] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
+            className="md:-mb-0 mb-2 p-0 leading-[1.5] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
           >
             MEET THE CREATOR
           </Link>

@@ -1,13 +1,13 @@
 // Initialize ScrollMoo
 let SC = ScrollMoo({
   "body": {
-    triggerEnd: -1,
+    triggerEnd:0,
   },
 
   ".bottom-left": {
-    triggerStartElement: ".project-row",
-    triggerEndElement: ".project-row",
-    triggerEnd: "-1%",
+    triggerStartElement: "body",
+    triggerEndElement: "body",
+    triggerEnd: "-0%",
     sync: 0.0001,
     keyframes: {
       transform: {

@@ -74,6 +74,7 @@ export default function PDP2() {
         clientBackground={data.page2.clientBackground}
         height="lg:h-[720px]"
         itemGap="gap-y-[9px] md:gap-y-4 lg:gap-x-[40px]"
+		itemhide="hidden"
         role={data.page2.role}
         image={data.page2.image ?? ""}
         imageMobile={data.page2.imageMobile ?? ""}
@@ -102,12 +103,12 @@ export default function PDP2() {
       </section>
 	  
 	  <div className="flex flex-col lg:flex-row w-full font-nats overflow-x-hidden">
-	  <div className="lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] md:py-[40px] py-[30px] ">
+	  <div className="lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] md:py-[40px] py-[48px] ">
 	  <div className="w-full text-left">
 	  <div className="flex flex-col">
-	  <div className="mt-5 xl:mt-[30px] mt-[20px]">
-	  <h2 className="mb-15 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Reality</h2>
-	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">In our everyday lives, everyone experiences ups and downs every now and then. Transient periods of moodiness, unrelated to any psychiatric diagnosis, are common in most people.  But bipolar disorder is an amplification of these ordinary shifts. It is a chronic mood disorder that affects 0.4% to 0.6% of India’s population. Studies indicate that nearly 1 in 3 diagnosed have attempted suicide at least once. Yet, it remains shrouded in stigma.</p>
+	  <div className=" ">
+	  <h2 className="mb-15 mt-0 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Reality</h2>
+	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">In our everyday lives, everyone experiences ups and downs every now and then. Transient periods of moodiness, unrelated to any psychiatric diagnosis, are common in most people.  But bipolar disorder is an amplification of these ordinary shifts. It is a chronic mood disorder that affects 0.4% to 0.6% of India's population. Studies indicate that nearly 1 in 3 diagnosed have attempted suicide at least once. Yet, it remains shrouded in stigma.</p>
 	  </div>
 	  </div></div></div>
 	  <div className="lg:w-[53%] w-full h-auto px-[30px] lg:p-0">
@@ -115,7 +116,7 @@ export default function PDP2() {
 	  width="800" 
 	  height="600"
 	  alt=""
-	  className="w-full h-[400px] lg:w-[740px] md:h-[738px] lg:h-[682px] object-cover hidden lg:block" 
+	  className="w-full lg:w-[740px] object-cover hidden lg:block" 
 	  src="/images/pdp/pdp2/main4.jpg"/>
 	  <Image 
 	  width="800" 
@@ -124,21 +125,21 @@ export default function PDP2() {
 	  className="lg:hidden" 
 	  src="/images/pdp/pdp2/mobile-main4.jpg"/>
 	  </div>
-	  <div className="hidden lg:w-[47%] w-full bg-[#F0E5D4] lg:flex">
-	  <div className="w-full text-left xl:py-0 xl:px-[32px] xl:m-[60px] xl:mb-[8px]">
+	  <div className="hidden lg:w-[47%] w-full bg-[#F0E5D4] lg:flex items-center">
+	  <div className="w-full text-left md:px-[80px] py-[48px] md:mb-[37px] md:mt-[37px]">
 	  <div className="flex flex-col">
-	  <div className="mt-5 xl:mt-[30px] mt-[20px]">
-	  <h2 className="mb-15 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Reality</h2>
-	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">In our everyday lives, everyone experiences ups and downs every now and then. Transient periods of moodiness, unrelated to any psychiatric diagnosis, are common in most people.  But bipolar disorder is an amplification of these ordinary shifts. It is a chronic mood disorder that affects 0.4% to 0.6% of India’s population. Studies indicate that nearly 1 in 3 diagnosed have attempted suicide at least once. Yet, it remains shrouded in stigma.</p></div>
+	  <div>
+	  <h2 className="mb-15 font-nats mt-0 font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Reality</h2>
+	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">In our everyday lives, everyone experiences ups and downs every now and then. Transient periods of moodiness, unrelated to any psychiatric diagnosis, are common in most people. But bipolar disorder is an amplification of these ordinary shifts. It is a chronic mood disorder that affects 0.4% to 0.6% of India's population. Studies indicate that nearly 1 in 3 diagnosed have attempted suicide at least once. Yet, it remains shrouded in stigma.</p></div>
 	  <div className="mt-5 xl:mt-[30px] mt-[20px]">
 	  <h2 className="mb-15 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Challenge</h2>
 	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Bipolar disorder in India is not just under-diagnosed; it is perilously overlooked. Many still assume that medication alone can manage the condition, disregarding the effectiveness of therapies. This lack of awareness leaves patients and caregivers ill-equipped to navigate the disorder, and such persistent barriers underscore the urgent need to address stigma and interventions that translate clinical knowledge into accessible, practical guidance.</p>
 	  </div>
 	  </div></div></div>
-	  <div className="lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pt-[26px] pb-[40px] ">
+	  <div className="lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pt-[48px] pb-[48px] ">
 	  <div className="w-full text-left"><div className="flex flex-col">
-	  <div className="mt-5 xl:mt-[30px] mt-[20px]">
-	  <h2 className="mb-15 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Challenge</h2>
+	  <div className="mt-0">
+	  <h2 className="mb-15 mt-0 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Challenge</h2>
 	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Bipolar disorder in India is not just under-diagnosed; it is perilously overlooked. Many still assume that medication alone can manage the condition, disregarding the effectiveness of therapies. This lack of awareness leaves patients and caregivers ill-equipped to navigate the disorder, and such persistent barriers underscore the urgent need to address stigma and interventions that translate clinical knowledge into accessible, practical guidance.</p></div>
 	  </div></div></div></div>
       
@@ -165,12 +166,14 @@ export default function PDP2() {
         image={data.page6.image ?? ""}
         imageMobile={data.page6.imageMobile ?? ""}
         paddingMobileUpper="px-[30px] pt-[25px] pb-[38px]"
+        nimhansStrategy="nimhansstrategy md:pt-[8px]"
+        nimhansStrategyMobile="mobilenimhansstrategy"
         paddingMobileLower="px-[30px] pt-[25px] pb-[38px]"
         paddingXl="lg:pt-3 lg:px-7 xl:px-[51px] xl:pb-[30px] xl:-mt-[5px] lg:pb-[20px]"
         imageClass={
           isExpanded
-            ? "w-full h-[255px] md:h-[400px] lg:h-full xl:h-[640px] xl:w-[746px] object-cover"
-            : "w-full h-[255px] md:h-[400px] lg:h-full xl:h-[640px] xl:w-[746px] object-cover"
+            ? "w-full  lg:h-full  xl:w-[746px] object-cover"
+            : "w-full lg:h-full  xl:w-[746px] object-cover"
         }
         onExpandChange={handleExpandChange}
       />
@@ -190,6 +193,7 @@ export default function PDP2() {
           <PageFlipBook
             images={[
               "/images/pdp/pdp2/book/2.jpg",
+			  "/images/pdp/pdp2/book/1.jpg",
               "/images/pdp/pdp2/book/3.jpg",
               "/images/pdp/pdp2/book/4.jpg",
               "/images/pdp/pdp2/book/5.jpg",
@@ -202,7 +206,7 @@ export default function PDP2() {
               "/images/pdp/pdp2/book/12.jpg",
               "/images/pdp/pdp2/book/13.jpg",
               "/images/pdp/pdp2/book/14.jpg",
-              "/images/pdp/pdp2/book/1.jpg",
+
             ]}
           />
         </div>

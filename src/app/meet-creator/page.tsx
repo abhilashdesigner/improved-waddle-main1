@@ -194,7 +194,7 @@ export default function MeetCreatorPage() {
 									className="w-full visibility-hidden"
 								/>
 								<div className="m-right-top-text">
-									<h3 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Srishti manipal institute of<br />art,design & technology, <br />bangalore</h3>
+									<h3 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Srishti manipal institute of<br />art, design & technology, <br />bangalore</h3>
 									<p className="font-nats text-[12px] md:text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Majored in Visual Communication and<br />Strategic Branding along with a minor in<br />Contemporary Art Practices.</p>
 								</div>
 

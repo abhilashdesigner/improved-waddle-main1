@@ -20,12 +20,12 @@ interface ClientInfoProps {
 export default function ClientInfo(props: ClientInfoProps) {
   return (
     <div
-      className={`flex flex-col-reverse lg:flex-row w-full font-nats overflow-x-hidden ${props.height}`}
+      className={`flex flex-col-reverse lg:flex-row w-full font-nats overflow-x-hidden`}
     >
       <div
-        className={`lg:w-[55%] w-full bg-[#351A12] flex items-center justify-center :py-[35px] px-[32px] py-[30px] xl:p-[52px]`}
+        className={`lg:w-[55%] w-full bg-[#351A12] flex items-center justify-center py-[48px] px-[29px] md:px-[104px] md:pt-[90px] md:pb-[93px]`}
       >
-        <div className={`w-full text-left p-0 ${props.paddingXl}`}>
+        <div className={`w-full text-left p-0`}>
           <h1
             className={`m-0 font-monthis font-normal text-[32px] lg:text-[54px] leading-[1.2] lg:leading-[1.25] mb-5 lg:mb-[52px] ${props.titleColor} [word-spacing:1.5px]`}
           >
@@ -33,7 +33,7 @@ export default function ClientInfo(props: ClientInfoProps) {
           </h1>
           <div
             className={`flex flex-col md:flex-row mb-[18px] lg:mb-[51px] ${props.itemGap}`}
-          >
+          >	
             <div>
               <h2 className="m-0 font-nats font-normal text-[15px] lg:text-[20px] text-[#F7F5ED] uppercase mb-[6px]">
                 Industry
@@ -42,7 +42,7 @@ export default function ClientInfo(props: ClientInfoProps) {
                 {props.industry || "No industry information available."}
               </p>
             </div>
-            <div>
+            <div className={`${props.itemhide}`}>
               {props.team && (
                 <>
                   <h2 className="m-0 font-nats font-normal text-[15px] lg:text-[20px] text-[#F7F5ED] uppercase mb-[10px]">

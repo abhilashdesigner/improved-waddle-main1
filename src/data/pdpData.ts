@@ -167,7 +167,7 @@ export const pdpData: Record<string, PDPData> = {
       team: null,
       role: "Author & Designer",
       clientBackground:
-        "In collaboration with the Psychosis Department at NIMHANS and guided by patients’ lived experiences, I wrote Numbing Exhilaration, a graphic novel that uses experimental typography and fiction to reimagine how Bipolar Disorder is understood and spoken of in India. Displayed in the waiting room of Dr. Murali Dhawan, it offers pragmatic coping strategies, making clinical knowledge accessible. ",
+        "In collaboration with the Psychosis Department at NIMHANS and guided by patients' lived experiences, I wrote Numbing Exhilaration, a graphic novel that uses experimental typography and fiction to reimagine how Bipolar Disorder is understood and spoken of in India. Displayed in the waiting room of Dr. Murali Dhawan, it offers pragmatic coping strategies, making clinical knowledge accessible. ",
       image: "/images/pdp/pdp2/main2.jpg",
       imageMobile: "/images/pdp/pdp2/mobile-main2.jpg",
     },
@@ -178,7 +178,7 @@ export const pdpData: Record<string, PDPData> = {
     page4: {
       pageTitle: null,
       theReality:
-        "In our everyday lives, everyone experiences ups and downs every now and then. Transient periods of moodiness, unrelated to any psychiatric diagnosis, are common in most people.  But bipolar disorder is an amplification of these ordinary shifts. It is a chronic mood disorder that affects 0.4% to 0.6% of India’s population. Studies indicate that nearly 1 in 3 diagnosed have attempted suicide at least once. Yet, it remains shrouded in stigma.",
+        "In our everyday lives, everyone experiences ups and downs every now and then. Transient periods of moodiness, unrelated to any psychiatric diagnosis, are common in most people.  But bipolar disorder is an amplification of these ordinary shifts. It is a chronic mood disorder that affects 0.4% to 0.6% of India's population. Studies indicate that nearly 1 in 3 diagnosed have attempted suicide at least once. Yet, it remains shrouded in stigma.",
       theChallenge:
         "Bipolar disorder in India is not just under-diagnosed; it is perilously overlooked. Many still assume that medication alone can manage the condition, disregarding the effectiveness of therapies. This lack of awareness leaves patients and caregivers ill-equipped to navigate the disorder, and such persistent barriers underscore the urgent need to address stigma and interventions that translate clinical knowledge into accessible, practical guidance.",
       image: "/images/pdp/pdp2/main4.jpg",
@@ -193,7 +193,7 @@ export const pdpData: Record<string, PDPData> = {
       theSolution:
         "Numbing Exhilaration seeks to counter that stigma. More than a guide, it is a bridge- equipping patients and caregivers with pragmatic coping mechanisms that can be adapted alongside therapy and medication. Displayed in the waiting room of Dr. Murali Dhawan at the Psychosis Department of NIMHANS, the book directly engages those for whom this knowledge is most urgent: patients, caregivers, and individuals seeking early recognition of symptoms.",
       theVisualNarrative:
-        "Numbing Exhilaration unfolds through layered storytelling, bringing awareness to how symptoms manifest and episodes cycle, exploring both their terrors and their cruel allure alongside everyday struggles. The design incorporates experimental typography as voice and emotion, shifting through manipulated structures and hand-drawn compositions to mirror the disorder’s dualities.",
+        "Numbing Exhilaration unfolds through layered storytelling, bringing awareness to how symptoms manifest and episodes cycle, exploring both their terrors and their cruel allure alongside everyday struggles. The design incorporates experimental typography as voice and emotion, shifting through manipulated structures and hand-drawn compositions to mirror the disorder's dualities.",
       image: "/images/pdp/pdp2/main6.jpg",
       imageMobile: "/images/pdp/pdp2/mobile-main6.jpg",
     },
@@ -264,7 +264,7 @@ export const pdpData: Record<string, PDPData> = {
     page6: {
       pageTitle: "Design And Experience Strategy",
       uxPlanning:
-        "A fastidiously structured UI/UX framework, anchored by symmetrical, category-specific banners, ensured intuitive navigation. Strategically positioned service touchpoints, such as 'Schedule a Consultation' which reinforced the brand's role as a personalised lifestyle consultant and 'See In Person' which catalysed foot traffic, strengthened FA Home's hybrid retail paradigm. For FA Home Juniors, transparency and trust were paramount. Messaging around VOCs and rigorous chemical screening projected a veneer of sophistication while affirming the brand’s steadfast commitment to safety and instilling confidence at every digital touchpoint.",
+        "A fastidiously structured UI/UX framework, anchored by symmetrical, category-specific banners, ensured intuitive navigation. Strategically positioned service touchpoints, such as 'Schedule a Consultation' which reinforced the brand's role as a personalised lifestyle consultant and 'See In Person' which catalysed foot traffic, strengthened FA Home's hybrid retail paradigm. For FA Home Juniors, transparency and trust were paramount. Messaging around VOCs and rigorous chemical screening projected a veneer of sophistication while affirming the brand's steadfast commitment to safety and instilling confidence at every digital touchpoint.",
       styleGuide:
         "FA Home's website embodies a veneer of sophistication and accessibility. The colour palette combines neutral tone with subtle accents. Curated imagery within lifestyle contexts humanises the brand and enables online buyers to envision products organically integrated into their own thoughtfully styled homes. FA Home Junior builds on the same structural backbone while introducing playful watercolour illustrations, softened pastels, and child-friendly variations of type to resonate with a younger demographic.",
       visualDirection:

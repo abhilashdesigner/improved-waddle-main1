@@ -40,7 +40,7 @@ export default function MeetCreator() {
               aesthetically refined and results-driven.
             </p>
             <p className="text-[12px] md:text-[16px] font-nats text-[#F7F5ED]">
-              She now partners with a technologist working across the
+              She now partners with technologists working across the
               digital spectrum, from modern frameworks to emerging tech like AI
               and Web3. Together, they build websites and digital experiences.
             </p>
@@ -90,7 +90,7 @@ export default function MeetCreator() {
             <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-start pt-0">
               <p className="text-[12px] md:text-[16px] font-nats text-[#F7F5ED]">
                 across print and digital platforms, her solutions are both
-                aesthetically refined and results-driven. She now partners with a technologist working across the digital spectrum, from
+                aesthetically refined and results-driven. She now partners with technologists working across the digital spectrum, from
                 modern frameworks to emerging tech like AI and Web3. Together,
                 they build websites and digital experiences that perform.
               </p>

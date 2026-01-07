@@ -7,8 +7,6 @@ import Image from "next/image";
 import Script from "next/script";
 
 
-
-
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
 }
@@ -48,11 +46,10 @@ export default function ProjectDisplay({
     return () => ctx.revert();
   }, [firstProject]);
 
-
   return (
   
-    <section ref={containerRef} className="w-full bg-[#F0E5D6]">
-		<div className="project-box">
+    <section ref={containerRef} className="w-full scrollMoo bg-[#F0E5D6]">
+		<div className="project-box mt-[50px] md:mt-[85px] md:mx-[50px] mx-[30px]">
                 <div className="arrow-down">
                   <span></span>
                   <span></span>
@@ -69,7 +66,7 @@ export default function ProjectDisplay({
 			<div className="project-grid bottom-left">
 				<a
 				  href="/projects/nimhans"
-				  className="project"
+				  className="project mt-[80px] md:ml-[45%] ml-[110px]"
 				>
 				  <div
 					className="project-marquee"
@@ -81,7 +78,7 @@ export default function ProjectDisplay({
 					
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/book2.jpg" 
+					   src="/images/tb1.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -89,7 +86,7 @@ export default function ProjectDisplay({
 					</div>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/book3.jpg" 
+					   src="/images/tb2.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -97,23 +94,7 @@ export default function ProjectDisplay({
 					</div>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/book1.jpg" 
-					   alt="Media"
-					   width={100}
-					   height={100} 
-					  />
-					</div>
-					<div className="project-marquee_img">
-					  <Image 
-					   src="/images/book2.jpg" 
-					   alt="Media"
-					   width={100}
-					   height={100} 
-					  />
-					</div>
-					<div className="project-marquee_img">
-					  <Image 
-					   src="/images/book3.jpg" 
+					   src="/images/tb3.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -121,14 +102,14 @@ export default function ProjectDisplay({
 					</div>
 					<h3>
 					  <p>
-						<span>Authorship</span>
-						<span>book design</span>
+						<span>WEB design</span>
+						<span>UI/UX redesign</span>
 					  </p>
-					  <div>NIMHANS</div>
+					  <div>Typsy Beauty</div>
 					</h3>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/book4.jpg" 
+					   src="/images/tb4.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -136,7 +117,7 @@ export default function ProjectDisplay({
 					</div>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/book5.jpg" 
+					   src="/images/tb5.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -144,39 +125,7 @@ export default function ProjectDisplay({
 					</div>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/book6.jpg" 
-					   alt="Media"
-					   width={100}
-					   height={100} 
-					  />
-					</div>
-
-					<h3>
-					  <p>
-						<span>Authorship</span>
-						<span>book design</span>
-					  </p>
-					  <div>NIMHANS</div>
-					</h3>
-					<div className="project-marquee_img">
-					  <Image 
-					   src="/images/book1.jpg" 
-					   alt="Media"
-					   width={100}
-					   height={100} 
-					  />
-					</div>
-					<div className="project-marquee_img">
-					  <Image 
-					   src="/images/book2.jpg" 
-					   alt="Media"
-					   width={100}
-					   height={100} 
-					  />
-					</div>
-					<div className="project-marquee_img">
-					  <Image 
-					   src="/images/book3.jpg" 
+					   src="/images/tb6.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -184,14 +133,61 @@ export default function ProjectDisplay({
 					</div>
 					<h3>
 					  <p>
-						<span>Authorship</span>
-						<span>book design</span>
+						<span>WEB design</span>
+						<span>UI/UX redesign</span>
 					  </p>
-					  <div>NIMHANS</div>
+					  <div>Typsy Beauty</div>
 					</h3>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/book3.jpg" 
+					   src="/images/tb1.jpg" 
+					   alt="Media"
+					   width={100}
+					   height={100} 
+					  />
+					</div>
+					<div className="project-marquee_img">
+					  <Image 
+					   src="/images/tb2.jpg" 
+					   alt="Media"
+					   width={100}
+					   height={100} 
+					  />
+					</div>
+					<div className="project-marquee_img">
+					  <Image 
+					   src="/images/tb3.jpg" 
+					   alt="Media"
+					   width={100}
+					   height={100} 
+					  />
+					</div>
+					<h3>
+					  <p>
+						<span>WEB design</span>
+						<span>UI/UX redesign</span>
+					  </p>
+					  <div>Typsy Beauty</div>
+					</h3>
+					<div className="project-marquee_img">
+					  <Image 
+					   src="/images/tb4.jpg" 
+					   alt="Media"
+					   width={100}
+					   height={100} 
+					  />
+					</div>
+					<div className="project-marquee_img">
+					  <Image 
+					   src="/images/tb5.jpg" 
+					   alt="Media"
+					   width={100}
+					   height={100} 
+					  />
+					</div>
+					<div className="project-marquee_img">
+					  <Image 
+					   src="/images/tb6.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -203,7 +199,7 @@ export default function ProjectDisplay({
 			<div className="project-grid bottom-left">
 				<a
 				  href="/projects/fa-home"
-				  className="project last-project"
+				  className="project mt-[80px] mb-[80px] md:mt-[180px] md:mb-[180px] md:ml-[80%] ml-[70%]"
 				>
 				  <div
 					className="project-marquee"
@@ -213,30 +209,6 @@ export default function ProjectDisplay({
 					data-scroll-speed="8"
 				  >
 				  <div className="project-marquee_img">
-					  <Image 
-					   src="/images/fahome1.jpg" 
-					   alt="Media"
-					   width={100}
-					   height={100} 
-					  />
-					</div>
-					<div className="project-marquee_img">
-					  <Image 
-					   src="/images/fahome2.jpg" 
-					   alt="Media"
-					   width={100}
-					   height={100} 
-					  />
-					</div>
-					<div className="project-marquee_img">
-					  <Image 
-					   src="/images/fahome3.jpg" 
-					   alt="Media"
-					   width={100}
-					   height={100} 
-					  />
-					</div>
-					<div className="project-marquee_img">
 					  <Image 
 					   src="/images/fahome1.jpg" 
 					   alt="Media"
@@ -286,6 +258,37 @@ export default function ProjectDisplay({
 					<div className="project-marquee_img">
 					  <Image 
 					   src="/images/fahome6.jpg" 
+					   alt="Media"
+					   width={100}
+					   height={100} 
+					  />
+					</div>
+					<h3>
+					  <p>
+						<span>Brand Identity</span>
+						<span>Web design</span>
+					  </p>
+					  <div>FA Home</div>
+					</h3>
+					<div className="project-marquee_img">
+					  <Image 
+					   src="/images/fahome1.jpg" 
+					   alt="Media"
+					   width={100}
+					   height={100} 
+					  />
+					</div>
+					<div className="project-marquee_img">
+					  <Image 
+					   src="/images/fahome2.jpg" 
+					   alt="Media"
+					   width={100}
+					   height={100} 
+					  />
+					</div>
+					<div className="project-marquee_img">
+					  <Image 
+					   src="/images/fahome3.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 

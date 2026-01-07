@@ -322,7 +322,7 @@ const Logos: React.FC = () => {
           }
         }
         .animate-scroll {
-          animation: scroll 13s linear infinite;
+          animation: scroll 10s linear infinite;
         }
 		
       `}</style>

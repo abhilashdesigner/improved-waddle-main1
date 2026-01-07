@@ -29,7 +29,7 @@ export default function Strategy(props: StrategyProps) {
   return (
     <div className="flex flex-col lg:flex-row w-full font-nats overflow-x-hidden">
       <div
-        className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center ${props.paddingMobileUpper}`}
+        className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pb-[48px] pt-[48px]`}
       >
         <div className="w-full text-left">
           {props.pageTitle && (
@@ -37,7 +37,7 @@ export default function Strategy(props: StrategyProps) {
               {props.pageTitle}
             </h1>
           )}
-          <div className="flex flex-col">
+          <div className={`flex flex-col ${props.nimhansStrategyMobile}`}>
             {mobileContentTop.map((section, index) => (
               <ExpandableContent
                 key={index}
@@ -52,15 +52,15 @@ export default function Strategy(props: StrategyProps) {
         </div>
       </div>
       <div
-        className={`hidden lg:w-[50%] w-full bg-[#F0E5D4] lg:flex items-center justify-center ${props.paddingXl}`}
+        className={`hidden lg:w-[50%] w-full bg-[#F0E5D4] lg:flex items-center justify-center`}
       >
-        <div className={`w-full text-left ${props.paddingXl}`}>
+        <div className={`w-full text-left px-9 md:px-[102px] py-[48px] md:mb-[45px] md:mt-[37px] `}>
           {props.pageTitle && (
             <h1 className="mb-0 mt-0 font-monthis font-normal text-[54px] leading-[1.23] [word-spacing:1.5px]">
               {props.pageTitle}
             </h1>
           )}
-          <div className="flex flex-col">
+          <div className={`flex flex-col ${props.nimhansStrategy}`}>
             {sectionsToRender.map((section, index) => (
               <ExpandableContent
                 key={index}
@@ -74,13 +74,13 @@ export default function Strategy(props: StrategyProps) {
           </div>
         </div>
       </div>
-      <div className="lg:w-[54%] w-full h-auto px-[30px] lg:p-0">
+      <div className=" flex lg:w-[54%] w-full h-auto px-[30px] lg:p-0">
         <Image
           src={props.image || ""}
           alt={props.pageTitle || ""}
           width={800}
           height={600}
-          className={`${props.imageClass} hidden lg:block`}
+          className={` w-full lg:w-[740px] hidden lg:block`}
         />
         <Image
           src={props.imageMobile || props.image || ""}
@@ -92,10 +92,10 @@ export default function Strategy(props: StrategyProps) {
       </div>
       {mobileContentBottom.length > 0 && (
         <div
-          className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center ${props.paddingMobileLower}`}
+          className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pb-[48px] pt-[48px]`}
         >
           <div className="w-full text-left">
-            <div className="flex flex-col">
+            <div className={`flex flex-col mobilenimhansstrategy ${props.nimhansStrategyMobile}`}>
               {mobileContentBottom.map((section, index) => (
                 <ExpandableContent
                   key={index}

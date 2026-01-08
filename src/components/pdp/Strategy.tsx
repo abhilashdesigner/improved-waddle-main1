@@ -37,7 +37,7 @@ export default function Strategy(props: StrategyProps) {
               {props.pageTitle}
             </h1>
           )}
-          <div className={`flex flex-col ${props.nimhansStrategyMobile}`}>
+          <div className={`flex flex-col`}>
             {mobileContentTop.map((section, index) => (
               <ExpandableContent
                 key={index}
@@ -95,7 +95,7 @@ export default function Strategy(props: StrategyProps) {
           className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pb-[48px] pt-[48px]`}
         >
           <div className="w-full text-left">
-            <div className={`flex flex-col mobilenimhansstrategy`}>
+            <div className={`flex flex-col`}>
               {mobileContentBottom.map((section, index) => (
                 <ExpandableContent
                   key={index}

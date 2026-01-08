@@ -66,7 +66,10 @@ export default function ProjectDisplay({
 			<div className="project-grid bottom-left">
 				<a
 				  href="/projects/nimhans"
-				  className="project mt-[80px] md:ml-[15%] ml-[45%]"
+				  className="project mt-[80px] md:ml-[15%] ml-[55%]"
+				  onClick={(e) => {
+					window.location.reload();
+				  }}
 				>
 				  <div
 					className="project-marquee"
@@ -201,6 +204,9 @@ export default function ProjectDisplay({
 				<a
 				  href="/projects/fa-home"
 				  className="project mt-[80px] mb-[80px] md:mt-[180px] md:mb-[180px] md:ml-[30%] ml-[65%]"
+				  onClick={(e) => {
+					window.location.reload();
+				  }}
 				>
 				  <div
 					className="project-marquee"

@@ -49,17 +49,50 @@ export default function Menu({ onClose, isOpen }: MenuProps) {
         <div className="flex flex-col md:flex-row h-full">
           <div className="flex flex-col justify-center h-full py-[49px] px-[30px] md:pl-[104px] md:pr-[104px] md:py-[40px] xl:pl-[104px] xl:pr-[104px] md:w-[520px] md:-ml-[1px]">
             <ul className="flex flex-col space-y-[44px] md:space-y-[35px] xl:space-y-[52px]">
-              {menuItems.map((item) => (
-                <li key={item.name}>
-                  <Link
-                    href={item.href}
-                    onClick={onClose}
-                    className="text-[15px] md:text-[20px] font-nats text-[#351A12] md:text-[#F7F5ED] hover:text-[#D2ADCE] transition-colors block"
-                  >
-                    {item.name}
-                  </Link>
+                <li>
+                  <a 
+				  className="text-[15px] md:text-[20px] font-nats text-[#351A12] md:text-[#F7F5ED] hover:text-[#D2ADCE] transition-colors block" 
+				  href="/projects"
+				  onClick={(e) => {
+					window.location.reload();
+				  }}
+				  >
+				  PROJECTS
+				  </a>
                 </li>
-              ))}
+				<li>
+                  <a 
+				  className="text-[15px] md:text-[20px] font-nats text-[#351A12] md:text-[#F7F5ED] hover:text-[#D2ADCE] transition-colors block" 
+				  href="/services"
+				  onClick={(e) => {
+					window.location.reload();
+				  }}
+				  >
+				  SERVICES
+				  </a>
+                </li>
+				<li>
+                  <a 
+				  className="text-[15px] md:text-[20px] font-nats text-[#351A12] md:text-[#F7F5ED] hover:text-[#D2ADCE] transition-colors block" 
+				  href="/meet-creator"
+				  onClick={(e) => {
+					window.location.reload();
+				  }}
+				  >
+				  MEET THE CREATOR
+				  </a>
+                </li>
+				<li>
+                  <a 
+				  className="text-[15px] md:text-[20px] font-nats text-[#351A12] md:text-[#F7F5ED] hover:text-[#D2ADCE] transition-colors block" 
+				  href="/get-in-touch"
+				  onClick={(e) => {
+					window.location.reload();
+				  }}
+				  >
+				  GET IN TOUCH
+				  </a>
+                </li>
             </ul>
           </div>
           <div className="flex flex-col items-center justify-start md:flex-row md:w-[920px] md:pr-[60px] md:-ml-[4px]">

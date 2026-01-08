@@ -23,30 +23,30 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col items-end mt-3 md:-mt-8">
-          <Link
+          <a
             href="/projects"
             className="m-0 p-0 leading-[1.5] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
           >
             PROJECTS
-          </Link>
-          <Link
+          </a>
+          <a
             href="/get-in-touch"
             className="m-0 p-0 leading-[1.5] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
           >
             GET IN TOUCH
-          </Link>
-          <Link
+          </a>
+          <a
             href="/services"
             className="m-0 p-0 leading-[1.5] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
           >
             SERVICES
-          </Link>
-          <Link
+          </a>
+          <a
             href="/meet-creator"
             className="md:-mb-0 mb-2 p-0 leading-[1.5] font-normal text-[18px] md:text-[24px] font-nats text-[#351A12] hover:text-[#D2ADCE] transition-colors text-right"
           >
             MEET THE CREATOR
-          </Link>
+          </a>
         </div>
       </div>
     </footer>

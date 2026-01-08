@@ -48,11 +48,11 @@ export default function Header() {
         }`}
     >
       <div className="flex items-center justify-between pl-[27px] pr-[30px] md:px-[104px] h-[60px] md:h-[57px]">
-        <Link href="/" passHref>
+        <a href="/">
           <div className="font-nats text-[36px] text-[#351A12] cursor-pointer md:-ml-[2px]">
             MILI BAJAJ
           </div>
-        </Link>
+        </a>
         <div className="flex items-center space-x-4 md:space-x-[22px]">
           <button
             onClick={toggleMenu}

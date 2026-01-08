@@ -66,7 +66,7 @@ export default function ProjectDisplay({
 			<div className="project-grid bottom-left">
 				<a
 				  href="/projects/typsy-beauty"
-				  className="project mt-[80px] md:ml-[45%] ml-[110px]"
+				  className="project mt-[80px] md:ml-[45%] ml-[40%]"
 				>
 				  <div
 					className="project-marquee"
@@ -199,7 +199,7 @@ export default function ProjectDisplay({
 			<div className="project-grid bottom-left">
 				<a
 				  href="/projects/fa-home"
-				  className="project mt-[80px] mb-[80px] md:mt-[180px] md:mb-[180px] md:ml-[80%] ml-[70%]"
+				  className="project mt-[80px] mb-[80px] md:mt-[180px] md:mb-[180px] md:ml-[80%] ml-[65%]"
 				>
 				  <div
 					className="project-marquee"

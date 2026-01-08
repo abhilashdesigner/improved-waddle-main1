@@ -165,8 +165,6 @@ export default function PDP2() {
         image={data.page6.image ?? ""}
         imageMobile={data.page6.imageMobile ?? ""}
         paddingMobileUpper="px-[30px] pt-[25px] pb-[38px]"
-        nimhansStrategy="nimhansstrategy md:pt-[8px]"
-        nimhansStrategyMobile="mobilenimhansstrategy"
         paddingMobileLower="px-[30px] pt-[25px] pb-[38px]"
         paddingXl="lg:pt-3 lg:px-7 xl:px-[51px] xl:pb-[30px] xl:-mt-[5px] lg:pb-[20px]"
         imageClass={

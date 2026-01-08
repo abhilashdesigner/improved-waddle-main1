@@ -10,8 +10,6 @@ interface StrategyProps {
   image: string | null;
   imageMobile?: string;
   imageClass: string;
-  nimhansStrategyMobile: string | null;
-  nimhansStrategy: string | null;
   paddingMobileUpper: string;
   paddingMobileLower: string;
   paddingXl: string;
@@ -62,7 +60,7 @@ export default function Strategy(props: StrategyProps) {
               {props.pageTitle}
             </h1>
           )}
-          <div className={`flex flex-col ${props.nimhansStrategy}`}>
+          <div className={`flex flex-col`}>
             {sectionsToRender.map((section, index) => (
               <ExpandableContent
                 key={index}
@@ -97,7 +95,7 @@ export default function Strategy(props: StrategyProps) {
           className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pb-[48px] pt-[48px]`}
         >
           <div className="w-full text-left">
-            <div className={`flex flex-col mobilenimhansstrategy ${props.nimhansStrategyMobile}`}>
+            <div className={`flex flex-col mobilenimhansstrategy`}>
               {mobileContentBottom.map((section, index) => (
                 <ExpandableContent
                   key={index}

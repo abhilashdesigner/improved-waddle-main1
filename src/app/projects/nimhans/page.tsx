@@ -62,7 +62,6 @@ export default function PDP2() {
         projectLink={data.page1.projectLink}
         image={data.page1.image ?? ""}
         imageMobile={data.page1.imageMobile ?? ""}
-        paddingMobile="px-[30px] py-[35px]"
         paddingXl="xl:p-12"
         areaLength={3}
         itemGap="gap-x-5"

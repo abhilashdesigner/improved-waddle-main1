@@ -10,7 +10,6 @@ interface HeroProps {
   projectLink: string | null;
   image: string;
   imageMobile?: string;
-  paddingMobile: string;
   paddingXl: string;
   areaLength?: number;
   itemGap: string;

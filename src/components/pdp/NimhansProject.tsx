@@ -62,11 +62,11 @@ export default function ProjectDisplay({
                   thinking <br className="br-d" />brands to translate vision into value, building <br className="br-m" />identities that elevate businesses and evolve with them.
                 </div>
               </div>
-		<div className="project-row">
+		<div className="project-row ">
 			<div className="project-grid bottom-left">
 				<a
 				  href="/projects/typsy-beauty"
-				  className="project mt-[80px] md:ml-[45%] ml-[40%]"
+				  className="project mt-[80px] md:ml-[45%] ml-[0%]"
 				>
 				  <div
 					className="project-marquee"
@@ -199,7 +199,7 @@ export default function ProjectDisplay({
 			<div className="project-grid bottom-left">
 				<a
 				  href="/projects/fa-home"
-				  className="project mt-[80px] mb-[80px] md:mt-[180px] md:mb-[180px] md:ml-[80%] ml-[65%]"
+				  className="project mt-[80px] mb-[80px] md:mt-[180px] md:mb-[180px]"
 				>
 				  <div
 					className="project-marquee"
@@ -208,7 +208,7 @@ export default function ProjectDisplay({
 					data-scroll-direction="horizontal"
 					data-scroll-speed="8"
 				  >
-				  <div className="project-marquee_img">
+				  <div className="project-marquee_img ">
 					  <Image 
 					   src="/images/fahome1.jpg" 
 					   alt="Media"
@@ -216,7 +216,7 @@ export default function ProjectDisplay({
 					   height={100} 
 					  />
 					</div>
-					<div className="project-marquee_img">
+					<div className="project-marquee_img ">
 					  <Image 
 					   src="/images/fahome2.jpg" 
 					   alt="Media"

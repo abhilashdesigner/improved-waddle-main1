@@ -12,7 +12,7 @@ export default function Launch() {
         <div className="md:w-[410px] md:flex md:flex-col md:justify-center">
           <div>
             <div className="flex flex-col gap-[8px] md:gap-[25px] relative">
-              <h2 className="m-0 p-0 leading-[0] font-normal font-nats text-[15px] md:text-[20px] text-[#F7F5ED] md:text-tertiary uppercase">
+              <h2 className="m-0 p-0 leading-[0] font-normal font-nats text-[18px] md:text-[20px] text-[#F7F5ED] md:text-tertiary uppercase">
                 Strategic Design, Built on Scalable Tech
               </h2>
               <h3 className="m-0 p-0 font-normal font-monthis text-[57px] md:text-[54px] text-[#D2ADCE] leading-[70px] md:leading-[66px]">
@@ -30,7 +30,7 @@ export default function Launch() {
             </div>
             <div className="mt-[12px] md:mt-0 md:pt-[14px]">
               <div className="space-y-6">
-                <p className="font-nats text-[12px] md:text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] pr-1 md:pr-0">
+                <p className="font-nats text-[16px] md:text-[18px] text-[#F7F5ED] md:text-[#F0E5D6] pr-1 md:pr-0">
                   Strategic design solutions that align your visual identity
                   with business goals. Whether you're building from scratch or
                   pivoting, we help brands create impact, communicate clearly
@@ -39,7 +39,7 @@ export default function Launch() {
               </div>
             </div>
             <Link href="/get-in-touch">
-              <button className="w-full h-[30px] md:h-[32px] md:w-[194px] bg-[#D2ADCE] text-[#351A12] font-nats text-[15px] md:text-[20px] mt-[25px] md:mt-[28px] md:mb-[46px] uppercase cursor-pointer">
+              <button className="w-full h-[30px] md:h-[32px] md:w-[194px] bg-[#D2ADCE] text-[#351A12] font-nats text-[16px] md:text-[20px] mt-[25px] md:mt-[28px] md:mb-[46px] uppercase cursor-pointer">
                 Elevate Your Brand
               </button>
             </Link>

@@ -15,7 +15,7 @@ export default function Hero() {
   }
 
   return (
-    <div className=" md:px-[104px] xl:px-[104px] pt-[65px] md:pt-[100px] xl:pt-[104px] pb-[58px] xl:pb-[55px] h-[auto] lg:h-[693px] bg-[#F0E5D6]">
+    <div className=" md:px-[104px] xl:px-[104px] pt-[97px] md:pt-[100px] xl:pt-[104px] pb-[90px] xl:pb-[55px] h-[auto] lg:h-[693px] bg-[#F0E5D6]">
       <BoxCarouselDemo />
     </div>
   );

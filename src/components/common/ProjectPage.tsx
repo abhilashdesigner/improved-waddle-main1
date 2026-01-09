@@ -62,7 +62,7 @@ export default function ProjectDisplay({
                   thinking <br className="br-d" />brands to translate vision into value, building <br className="br-m" />identities that elevate businesses and evolve with them.
                 </div>
               </div>
-		<div className="project-row md:ml-[-20%] ml-[-35%]">
+		<div className="project-row md:ml-[-20%] ml-[-45%]">
 			<div className="project-grid bottom-left ">
 				<a
 				  href="/projects/typsy-beauty"

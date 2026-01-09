@@ -9,7 +9,6 @@ import Hero from "@/components/pdp/Hero";
 import MoreProjects from "@/components/pdp/MoreProjects";
 import PageFlipBook from "@/components/pdp/PageFlipBook";
 import Bookslidermobile from "@/components/landing/Bookslidermobile";
-import Strategy from "@/components/pdp/Strategy";
 import { pdpData } from "@/data/pdpData";
 import { useState } from "react";
 import Image from "next/image";
@@ -157,22 +156,52 @@ export default function PDP2() {
           className="lg:hidden w-full h-[400px] md:h-[738px] lg:h-full object-cover"
         />
       </section>
-	  
-      <Strategy
-        pageTitle={data.page6.pageTitle ?? ""}
-        contentSections={strategyContent}
-        image={data.page6.image ?? ""}
-        imageMobile={data.page6.imageMobile ?? ""}
-        paddingMobileUpper="px-[30px] pt-[25px] pb-[38px]"
-        paddingMobileLower="px-[30px] pt-[25px] pb-[38px]"
-        paddingXl="lg:pt-3 lg:px-7 xl:px-[51px] xl:pb-[30px] xl:-mt-[5px] lg:pb-[20px]"
-        imageClass={
-          isExpanded
-            ? "w-full  lg:h-full  xl:w-[746px] object-cover"
-            : "w-full lg:h-full  xl:w-[746px] object-cover"
-        }
-        onExpandChange={handleExpandChange}
-      />
+	  <div className="flex flex-col lg:flex-row w-full font-nats overflow-x-hidden">
+	  <div className="lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pb-[48px] pt-[48px]">
+	  <div className="w-full text-left">
+	  <div className="flex flex-col">
+	  <div className="mt-0">
+	  <h2 className="mb-15 mt-0 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Solution</h2>
+	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Numbing Exhilaration seeks to counter that stigma. More than a guide, it is a bridge- equipping patients and caregivers with pragmatic coping mechanisms that can be adapted alongside therapy and medication. Displayed in the waiting room of Dr. Murali Dhawan at the Psychosis Department of NIMHANS, the book directly engages those for whom this knowledge is most urgent: patients, caregivers, and individuals seeking early recognition of symptoms.</p>
+	  </div>
+	  </div>
+	  </div>
+	  </div>
+	  <div className="hidden lg:w-[50%] w-full bg-[#F0E5D4] lg:flex items-center justify-center">
+	  <div className="w-full text-left px-9 md:px-[102px] py-[48px] md:mb-[45px] md:mt-[37px] ">
+	  <div className="flex flex-col">
+	  <div className="mt-0">
+	  <h2 className="mb-15 mt-0 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Solution</h2>
+	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Numbing Exhilaration seeks to counter that stigma. More than a guide, it is a bridge- equipping patients and caregivers with pragmatic coping mechanisms that can be adapted alongside therapy and medication. Displayed in the waiting room of Dr. Murali Dhawan at the Psychosis Department of NIMHANS, the book directly engages those for whom this knowledge is most urgent: patients, caregivers, and individuals seeking early recognition of symptoms.</p>
+	  </div>
+	  <div className="mt-5 xl:mt-[30px] mt-[20px]">
+	  <h2 className="mb-15 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Visual Narative</h2>
+	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Numbing Exhilaration unfolds through layered storytelling, bringing awareness to how symptoms manifest and episodes cycle, exploring both their terrors and their cruel allure alongside everyday struggles. The design incorporates experimental typography as voice and emotion, shifting through manipulated structures and hand-drawn compositions to mirror the disorder's dualities.</p>
+	  </div>
+	  </div>
+	  </div>
+	  </div>
+	  <div className=" flex lg:w-[54%] w-full h-auto px-[30px] lg:p-0">
+	  <Image 
+		alt="" 
+		width="800" 
+		height="600"
+		className=" w-full lg:w-[740px] hidden lg:block"
+		src="/images/pdp/pdp2/main6.jpg"/>
+	  <Image
+	  alt="" 
+	  width="800" 
+	  height="600" 
+	  className="w-full lg:h-full  xl:w-[746px] object-cover lg:hidden" 
+	  src="/images/pdp/pdp2/mobile-main6.jpg"/>
+	  </div>
+	  <div className="lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pb-[48px] pt-[48px]">
+	  <div className="w-full text-left">
+	  <div className="flex flex-col">
+	  <div className="mt-0">
+	  <h2 className="mb-15 mt-0 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Visual Narative</h2>
+	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Numbing Exhilaration unfolds through layered storytelling, bringing awareness to how symptoms manifest and episodes cycle, exploring both their terrors and their cruel allure alongside everyday struggles. The design incorporates experimental typography as voice and emotion, shifting through manipulated structures and hand-drawn compositions to mirror the disorder's dualities.</p>
+	  </div></div></div></div></div>
       <DirectionAndExperience
         pageTitle={null}
         finalDirection={null}

@@ -51,16 +51,16 @@ const Logos: React.FC = () => {
               <Image
                 src="/images/logos/indiawyngaming.svg"
                 alt="NIMHANS"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+                width={120}
+                height={120}
+                className="w-[120px] h-[120px] object-contain flex-shrink-0"
               />
               <Image
                 src="/images/logos/plylamcentre.svg"
                 alt="Four Points"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+                width={120}
+                height={120}
+                className="w-[120px] h-[120px] object-contain flex-shrink-0"
               />
               <Image
                 src="/images/logos/nimhans-logo-removebg.png"
@@ -100,16 +100,16 @@ const Logos: React.FC = () => {
               <Image
                 src="/images/logos/indiawyngaming.svg"
                 alt="NIMHANS"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+               width={120}
+                height={120}
+                className="w-[120px] h-[120px] object-contain flex-shrink-0"
               />
               <Image
                 src="/images/logos/plylamcentre.svg"
                 alt="Four Points"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+                width={120}
+                height={120}
+                className="w-[120px] h-[120px] object-contain flex-shrink-0"
               />
 			  <Image
                 src="/images/logos/nimhans-logo-removebg.png"
@@ -149,16 +149,16 @@ const Logos: React.FC = () => {
               <Image
                 src="/images/logos/indiawyngaming.svg"
                 alt="NIMHANS"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+                width={120}
+                height={120}
+                className="w-[120px] h-[120px] object-contain flex-shrink-0"
               />
               <Image
                 src="/images/logos/plylamcentre.svg"
                 alt="Four Points"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+                width={120}
+                height={120}
+                className="w-[120px] h-[120px] object-contain flex-shrink-0"
               />
 			  <Image
                 src="/images/logos/nimhans-logo-removebg.png"
@@ -198,16 +198,16 @@ const Logos: React.FC = () => {
               <Image
                 src="/images/logos/indiawyngaming.svg"
                 alt="NIMHANS"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+                width={120}
+                height={120}
+                className="w-[120px] h-[120px] object-contain flex-shrink-0"
               />
               <Image
                 src="/images/logos/plylamcentre.svg"
                 alt="Four Points"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+                width={120}
+                height={120}
+                className="w-[120px] h-[120px] object-contain flex-shrink-0"
               />
               <Image
                 src="/images/logos/nimhans-logo-removebg.png"
@@ -247,16 +247,16 @@ const Logos: React.FC = () => {
               <Image
                 src="/images/logos/indiawyngaming.svg"
                 alt="NIMHANS"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+                width={120}
+                height={120}
+                className="w-[120px] h-[120px] object-contain flex-shrink-0"
               />
               <Image
                 src="/images/logos/plylamcentre.svg"
                 alt="Four Points"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+                width={120}
+                height={120}
+                className="w-[120px] h-[120px] object-contain flex-shrink-0"
               />
 			  <Image
                 src="/images/logos/nimhans-logo-removebg.png"
@@ -296,16 +296,16 @@ const Logos: React.FC = () => {
               <Image
                 src="/images/logos/indiawyngaming.svg"
                 alt="NIMHANS"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+                width={120}
+                height={120}
+                className="w-[120px] h-[120px] object-contain flex-shrink-0"
               />
               <Image
                 src="/images/logos/plylamcentre.svg"
                 alt="Four Points"
-                width={97}
-                height={97}
-                className="w-[97px] h-[97px] object-contain flex-shrink-0"
+                width={120}
+                height={120}
+                className="w-[120px] h-[120px] object-contain flex-shrink-0"
               />
             </div>
           </div>
@@ -322,9 +322,13 @@ const Logos: React.FC = () => {
           }
         }
         .animate-scroll {
+          animation: scroll 15s linear infinite;
+        }
+		@media (max-width: 768px) {
+		.animate-scroll {
           animation: scroll 10s linear infinite;
         }
-		
+		}
       `}</style>
     </section>
   );

@@ -66,7 +66,7 @@ export default function ProjectDisplay({
 			<div className="project-grid bottom-left">
 				<a
 				  href="/projects/nimhans"
-				  className="project mt-[80px] md:ml-[15%] ml-[55%]"
+				  className="project mt-[80px] md:ml-[15%] ml-[0%]"
 				  onClick={(e) => {
 					window.location.reload();
 				  }}
@@ -79,7 +79,7 @@ export default function ProjectDisplay({
 					data-scroll-speed="8"
 				  >
 					
-					<div className="project-marquee_img">
+					<div className="project-marquee_img mobile-none">
 					  <Image 
 					   src="/images/book1.jpg" 
 					   alt="Media"
@@ -87,7 +87,7 @@ export default function ProjectDisplay({
 					   height={100} 
 					  />
 					</div>
-					<div className="project-marquee_img">
+					<div className="project-marquee_img mobile-none">
 					  <Image 
 					   src="/images/book2.jpg" 
 					   alt="Media"
@@ -95,7 +95,7 @@ export default function ProjectDisplay({
 					   height={100} 
 					  />
 					</div>
-					<div className="project-marquee_img">
+					<div className="project-marquee_img mobile-none">
 					  <Image 
 					   src="/images/book3.jpg" 
 					   alt="Media"
@@ -203,7 +203,7 @@ export default function ProjectDisplay({
 			<div className="project-grid bottom-left">
 				<a
 				  href="/projects/fa-home"
-				  className="project mt-[80px] mb-[80px] md:mt-[180px] md:mb-[180px] md:ml-[30%] ml-[65%]"
+				  className="project mt-[80px] mb-[80px] md:mt-[180px] md:mb-[180px] md:ml-[30%] ml-[20%]"
 				  onClick={(e) => {
 					window.location.reload();
 				  }}
@@ -215,7 +215,7 @@ export default function ProjectDisplay({
 					data-scroll-direction="horizontal"
 					data-scroll-speed="8"
 				  >
-				  <div className="project-marquee_img">
+				  <div className="project-marquee_img mobile-none">
 					  <Image 
 					   src="/images/fahome1.jpg" 
 					   alt="Media"
@@ -223,7 +223,7 @@ export default function ProjectDisplay({
 					   height={100} 
 					  />
 					</div>
-					<div className="project-marquee_img">
+					<div className="project-marquee_img mobile-none">
 					  <Image 
 					   src="/images/fahome2.jpg" 
 					   alt="Media"
@@ -231,7 +231,7 @@ export default function ProjectDisplay({
 					   height={100} 
 					  />
 					</div>
-					<div className="project-marquee_img">
+					<div className="project-marquee_img mobile-none">
 					  <Image 
 					   src="/images/fahome3.jpg" 
 					   alt="Media"

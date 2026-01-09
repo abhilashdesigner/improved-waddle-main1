@@ -1646,6 +1646,9 @@ html.has-scroll-dragging {
 	background-color:#351A12;
 	margin:0 1rem
 }
+.cursor-pointer:hover .arrow-hero-right, .cursor-pointer:hover .arrow-hero-right span, .cursor-pointer:hover .arrow-hero-left, .cursor-pointer:hover .arrow-hero-left span{
+	background-color:#D2ADCE;
+}
 
 .arrow-hero-right span {
 	left:0px;

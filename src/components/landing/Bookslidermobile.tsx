@@ -126,15 +126,6 @@ export default function booksmobile() {
               className="object-cover w-[100%]"
         />
 	  </div>
-	  <div>
-		<Image
-              src="/images/pdp/pdp2/book/14.jpg"
-              alt="Mili Bajaj"
-              width={400}
-              height={337}
-              className="object-cover w-[100%]"
-        />
-	  </div>
     </Slider>
 	</section>
   );

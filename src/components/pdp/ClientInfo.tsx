@@ -46,7 +46,7 @@ export default function ClientInfo(props: ClientInfoProps) {
               {props.team && (
                 <>
 				<div>
-                  <h2 className="m-0 font-nats font-normal text-[15px] lg:text-[20px] text-[#F7F5ED] uppercase mb-[10px]">
+                  <h2 className="m-0 font-nats font-normal text-[15px] lg:text-[20px] text-[#F7F5ED] uppercase mb-[6px]">
                     Team
                   </h2>
                   <p className="font-nats font-normal text-[12px] lg:text-[16px] text-[#F7F5ED]">
@@ -58,7 +58,7 @@ export default function ClientInfo(props: ClientInfoProps) {
               )}
             
             <div>
-              <h2 className="m-0 font-nats font-normal text-[15px] lg:text-[20px] text-[#F7F5ED] uppercase mb-[10px]">
+              <h2 className="m-0 font-nats font-normal text-[15px] lg:text-[20px] text-[#F7F5ED] uppercase mb-[6px]">
                 Role
               </h2>
               <p className="font-nats font-normal text-[12px] lg:text-[16px] text-[#F7F5ED]">

@@ -94,7 +94,7 @@ export default function Strategy(props: StrategyProps) {
         <div
           className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pb-[48px] pt-[48px]`}
         >
-          <div className="w-full text-left">
+          <div className="w-full text-left mobilenimhansstrategy">
             <div className={`flex flex-col`}>
               {mobileContentBottom.map((section, index) => (
                 <ExpandableContent

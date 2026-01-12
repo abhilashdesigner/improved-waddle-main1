@@ -26,7 +26,7 @@ export default function SignupBanner() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="email address"
-              className="w-[300px] pt-0 pb-[1px] border-0 border-b border-[#D2ADCE] focus:outline-none font-nats text-[12px] bg-transparent text-[#F7F5ED] placeholder-[#F7F5ED] focus:placeholder-transparent"
+              className="w-[300px] pt-0 pb-[1px] border-0 border-b border-[#D2ADCE] focus:outline-none font-nats text-[16px] md:text-[18px] bg-transparent text-[#F7F5ED] placeholder-[#F7F5ED] focus:placeholder-transparent"
               required
             />
             <button

@@ -57,9 +57,9 @@ export default function ProjectDisplay({
                 <div className="project-heading">
                   <h3>MORE PROJECTS THAT BROUGHT IDEAS TO LIFE</h3>
                 </div>
-                <div className="project-text font-nats text-[12px] md:text-[16px] text-[#351A12] md:text-[#351A12] md:pr-0">
-                  Each case study reflects intentional design paired with<br className="br-m" />scalable solutions. We have collaborated with forward-<br className="br-m" />
-                  thinking <br className="br-d" />brands to translate vision into value, building <br className="br-m" />identities that elevate businesses and evolve with them.
+                <div className="project-text font-nats text-[16px] md:text-[18px] text-[#351A12] md:text-[#351A12] md:pr-0">
+                  Each case study reflects intentional design paired with scalable solutions. We have collaborated with<br className="br-m" />forward-
+                  thinking <br className="br-d" />brands to translate vision into value, building identities that elevate businesses and evolve with them.
                 </div>
               </div>
 		<div className="project-row">

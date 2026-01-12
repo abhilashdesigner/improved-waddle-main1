@@ -38,7 +38,7 @@ export default function ClientInfo(props: ClientInfoProps) {
               <h2 className="m-0 font-nats font-normal text-[15px] lg:text-[20px] text-[#F7F5ED] uppercase mb-[6px]">
                 Industry
               </h2>
-              <p className="font-nats font-normal text-[12px] lg:text-[16px] text-[#F7F5ED]">
+              <p className="font-nats font-normal text-[16px] lg:text-[18px] text-[#F7F5ED]">
                 {props.industry || "No industry information available."}
               </p>
             </div>
@@ -49,7 +49,7 @@ export default function ClientInfo(props: ClientInfoProps) {
                   <h2 className="m-0 font-nats font-normal text-[15px] lg:text-[20px] text-[#F7F5ED] uppercase mb-[6px]">
                     Team
                   </h2>
-                  <p className="font-nats font-normal text-[12px] lg:text-[16px] text-[#F7F5ED]">
+                  <p className="font-nats font-normal text-[16px] lg:text-[18px] text-[#F7F5ED]">
                     {props.team}
                   </p>
 				  </div>
@@ -61,12 +61,12 @@ export default function ClientInfo(props: ClientInfoProps) {
               <h2 className="m-0 font-nats font-normal text-[15px] lg:text-[20px] text-[#F7F5ED] uppercase mb-[6px]">
                 Role
               </h2>
-              <p className="font-nats font-normal text-[12px] lg:text-[16px] text-[#F7F5ED]">
+              <p className="font-nats font-normal text-[16px] lg:text-[18px] text-[#F7F5ED]">
                 {props.role || "No role information available."}
               </p>
             </div>
           </div>
-          <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] md:mb-0 md:leading-[34px] text-[#F7F5ED]">
+          <p className="font-nats text-[16px] lg:text-[18px] leading-[25px] md:mb-0 md:leading-[34px] text-[#F7F5ED]">
             {props.clientBackground ||
               "No client background information available."}
           </p>

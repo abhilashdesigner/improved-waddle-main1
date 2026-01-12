@@ -105,7 +105,7 @@ export default function PDP2() {
 	  <div className="flex flex-col">
 	  <div className=" ">
 	  <h2 className="mb-15 mt-0 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Reality</h2>
-	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">In our everyday lives, everyone experiences ups and downs every now and then. Transient periods of moodiness, unrelated to any psychiatric diagnosis, are common in most people.  But bipolar disorder is an amplification of these ordinary shifts. It is a chronic mood disorder that affects 0.4% to 0.6% of India's population. Studies indicate that nearly 1 in 3 diagnosed have attempted suicide at least once. Yet, it remains shrouded in stigma.</p>
+	  <p className="font-nats text-[16px] lg:text-[18px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">In our everyday lives, everyone experiences ups and downs every now and then. Transient periods of moodiness, unrelated to any psychiatric diagnosis, are common in most people.  But bipolar disorder is an amplification of these ordinary shifts. It is a chronic mood disorder that affects 0.4% to 0.6% of India's population. Studies indicate that nearly 1 in 3 diagnosed have attempted suicide at least once. Yet, it remains shrouded in stigma.</p>
 	  </div>
 	  </div></div></div>
 	  <div className="lg:w-[53%] w-full h-auto px-[30px] lg:p-0">
@@ -127,17 +127,17 @@ export default function PDP2() {
 	  <div className="flex flex-col">
 	  <div>
 	  <h2 className="mb-15 font-nats mt-0 font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Reality</h2>
-	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">In our everyday lives, everyone experiences ups and downs every now and then. Transient periods of moodiness, unrelated to any psychiatric diagnosis, are common in most people. But bipolar disorder is an amplification of these ordinary shifts. It is a chronic mood disorder that affects 0.4% to 0.6% of India's population. Studies indicate that nearly 1 in 3 diagnosed have attempted suicide at least once. Yet, it remains shrouded in stigma.</p></div>
+	  <p className="font-nats text-[16px] lg:text-[18px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">In our everyday lives, everyone experiences ups and downs every now and then. Transient periods of moodiness, unrelated to any psychiatric diagnosis, are common in most people. But bipolar disorder is an amplification of these ordinary shifts. It is a chronic mood disorder that affects 0.4% to 0.6% of India's population. Studies indicate that nearly 1 in 3 diagnosed have attempted suicide at least once. Yet, it remains shrouded in stigma.</p></div>
 	  <div className="mt-5 xl:mt-[30px] mt-[20px]">
 	  <h2 className="mb-15 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Challenge</h2>
-	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Bipolar disorder in India is not just under-diagnosed; it is perilously overlooked. Many still assume that medication alone can manage the condition, disregarding the effectiveness of therapies. This lack of awareness leaves patients and caregivers ill-equipped to navigate the disorder, and such persistent barriers underscore the urgent need to address stigma and interventions that translate clinical knowledge into accessible, practical guidance.</p>
+	  <p className="font-nats text-[16px] lg:text-[18px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Bipolar disorder in India is not just under-diagnosed; it is perilously overlooked. Many still assume that medication alone can manage the condition, disregarding the effectiveness of therapies. This lack of awareness leaves patients and caregivers ill-equipped to navigate the disorder, and such persistent barriers underscore the urgent need to address stigma and interventions that translate clinical knowledge into accessible, practical guidance.</p>
 	  </div>
 	  </div></div></div>
 	  <div className="lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pt-[48px] pb-[48px] ">
 	  <div className="w-full text-left"><div className="flex flex-col">
 	  <div className="mt-0">
 	  <h2 className="mb-15 mt-0 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Challenge</h2>
-	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Bipolar disorder in India is not just under-diagnosed; it is perilously overlooked. Many still assume that medication alone can manage the condition, disregarding the effectiveness of therapies. This lack of awareness leaves patients and caregivers ill-equipped to navigate the disorder, and such persistent barriers underscore the urgent need to address stigma and interventions that translate clinical knowledge into accessible, practical guidance.</p></div>
+	  <p className="font-nats text-[16px] lg:text-[18px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Bipolar disorder in India is not just under-diagnosed; it is perilously overlooked. Many still assume that medication alone can manage the condition, disregarding the effectiveness of therapies. This lack of awareness leaves patients and caregivers ill-equipped to navigate the disorder, and such persistent barriers underscore the urgent need to address stigma and interventions that translate clinical knowledge into accessible, practical guidance.</p></div>
 	  </div></div></div></div>
       
       <section className="w-full justify-center items-center bg-white">
@@ -162,7 +162,7 @@ export default function PDP2() {
 	  <div className="flex flex-col">
 	  <div className="mt-0">
 	  <h2 className="mb-15 mt-0 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Solution</h2>
-	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Numbing Exhilaration seeks to counter that stigma. More than a guide, it is a bridge- equipping patients and caregivers with pragmatic coping mechanisms that can be adapted alongside therapy and medication. Displayed in the waiting room of Dr. Murali Dhawan at the Psychosis Department of NIMHANS, the book directly engages those for whom this knowledge is most urgent: patients, caregivers, and individuals seeking early recognition of symptoms.</p>
+	  <p className="font-nats text-[16px] lg:text-[18px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Numbing Exhilaration seeks to counter that stigma. More than a guide, it is a bridge- equipping patients and caregivers with pragmatic coping mechanisms that can be adapted alongside therapy and medication. Displayed in the waiting room of Dr. Murali Dhawan at the Psychosis Department of NIMHANS, the book directly engages those for whom this knowledge is most urgent: patients, caregivers, and individuals seeking early recognition of symptoms.</p>
 	  </div>
 	  </div>
 	  </div>
@@ -172,11 +172,11 @@ export default function PDP2() {
 	  <div className="flex flex-col">
 	  <div className="mt-0">
 	  <h2 className="mb-15 mt-0 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Solution</h2>
-	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Numbing Exhilaration seeks to counter that stigma. More than a guide, it is a bridge- equipping patients and caregivers with pragmatic coping mechanisms that can be adapted alongside therapy and medication. Displayed in the waiting room of Dr. Murali Dhawan at the Psychosis Department of NIMHANS, the book directly engages those for whom this knowledge is most urgent: patients, caregivers, and individuals seeking early recognition of symptoms.</p>
+	  <p className="font-nats text-[16px] lg:text-[18px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Numbing Exhilaration seeks to counter that stigma. More than a guide, it is a bridge- equipping patients and caregivers with pragmatic coping mechanisms that can be adapted alongside therapy and medication. Displayed in the waiting room of Dr. Murali Dhawan at the Psychosis Department of NIMHANS, the book directly engages those for whom this knowledge is most urgent: patients, caregivers, and individuals seeking early recognition of symptoms.</p>
 	  </div>
 	  <div className="mt-5 xl:mt-[30px] mt-[20px]">
 	  <h2 className="mb-15 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Visual Narative</h2>
-	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Numbing Exhilaration unfolds through layered storytelling, bringing awareness to how symptoms manifest and episodes cycle, exploring both their terrors and their cruel allure alongside everyday struggles. The design incorporates experimental typography as voice and emotion, shifting through manipulated structures and hand-drawn compositions to mirror the disorder's dualities.</p>
+	  <p className="font-nats text-[16px] lg:text-[18px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Numbing Exhilaration unfolds through layered storytelling, bringing awareness to how symptoms manifest and episodes cycle, exploring both their terrors and their cruel allure alongside everyday struggles. The design incorporates experimental typography as voice and emotion, shifting through manipulated structures and hand-drawn compositions to mirror the disorder's dualities.</p>
 	  </div>
 	  </div>
 	  </div>
@@ -200,7 +200,7 @@ export default function PDP2() {
 	  <div className="flex flex-col">
 	  <div className="mt-0">
 	  <h2 className="mb-15 mt-0 font-nats font-normal text-[15px] lg:text-[20px] leading-[15px] lg:leading-normal text-[#351A12] uppercase">The Visual Narative</h2>
-	  <p className="font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Numbing Exhilaration unfolds through layered storytelling, bringing awareness to how symptoms manifest and episodes cycle, exploring both their terrors and their cruel allure alongside everyday struggles. The design incorporates experimental typography as voice and emotion, shifting through manipulated structures and hand-drawn compositions to mirror the disorder's dualities.</p>
+	  <p className="font-nats text-[16px] lg:text-[18px] leading-[25px] text-[#351A12] mx-auto lg:mx-0">Numbing Exhilaration unfolds through layered storytelling, bringing awareness to how symptoms manifest and episodes cycle, exploring both their terrors and their cruel allure alongside everyday struggles. The design incorporates experimental typography as voice and emotion, shifting through manipulated structures and hand-drawn compositions to mirror the disorder's dualities.</p>
 	  </div></div></div></div></div>
       <DirectionAndExperience
         pageTitle={null}

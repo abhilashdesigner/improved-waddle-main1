@@ -60,7 +60,7 @@ export default function Hero(props: HeroProps) {
             {props.title}
           </h1>
           <p
-            className={`font-nats text-[12px] lg:text-[16px] leading-[25px] text-[#351A12] mx-auto lg:mx-0 ${props.descMarginBottom}`}
+            className={`font-nats text-[16px] lg:text-[18px] leading-[25px] text-[#351A12] mx-auto lg:mx-0 ${props.descMarginBottom}`}
           >
             {props.shortDescription}
           </p>

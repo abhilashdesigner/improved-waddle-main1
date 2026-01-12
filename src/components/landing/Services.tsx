@@ -158,7 +158,7 @@ export default function Services() {
                     <h3 className="font-normal text-[15px] font-nats text-[#351A12] uppercase mt-[23px] mb-[1px]">
                       {service.title}
                     </h3>
-                    <p className="text-[12px] font-nats text-[#351A12] whitespace-pre-line">
+                    <p className="text-[18px] font-nats text-[#351A12] whitespace-pre-line">
                       {service.description}
                     </p>
                   </>
@@ -194,7 +194,7 @@ export default function Services() {
               >
                 Services
               </h2>
-              <p className="text-[16px] font-nats mr-[23px] whitespace-pre-line">
+              <p className="text-[18px] font-nats mr-[23px] whitespace-pre-line">
                 {services[hovered].description}
               </p>
             </div>

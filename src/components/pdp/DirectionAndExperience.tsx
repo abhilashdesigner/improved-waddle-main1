@@ -30,10 +30,10 @@ const DirectionAndExperience: React.FC<DirectionAndExperienceProps> = (
             </h2>
           </div>
           <div className={props.contentClass ?? ""}>
-            <p className="hidden lg:block font-nats text-[12px] lg:text-[16px] text-[#F7F5ED] leading-[26px] md:leading-loose">
+            <p className="hidden lg:block font-nats text-[16px] lg:text-[18px] text-[#F7F5ED] leading-[26px] md:leading-loose">
               {props.finalDirection}
             </p>
-            <p className="lg:hidden font-nats text-[12px] lg:text-[16px] text-[#F7F5ED] leading-[26px] md:leading-loose">
+            <p className="lg:hidden font-nats text-[16px] lg:text-[18px] text-[#F7F5ED] leading-[26px] md:leading-loose">
               {props.mobileFinalDirection}
             </p>
           </div>

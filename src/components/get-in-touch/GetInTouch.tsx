@@ -30,20 +30,20 @@ const GetInTouch: React.FC = () => {
                 <h2 className="m-0 font-nats font-normal text-[15px] lg:text-[20px] text-[#F7F5ED] uppercase mb-[7px] lg:mb-2">
                   Email Address
                 </h2>
-                <p className="font-nats font-normal text-[12px] lg:text-[16px] text-[#F7F5ED]">
-                  <a href="mailto:milibajaj.work@gmail.com" className="text-[#D2ADCE] hover:text-[#B89BB8] transition-colors cursor-pointer underline">milibajaj.work@gmail.com</a>
+                <p className="font-nats font-normal text-[16px] md:text-[18px] text-[#F7F5ED]">
+                  <a href="mailto:milibajaj.work@gmail.com" className="text-[16px] md:text-[18px] text-[#D2ADCE] hover:text-[#B89BB8] transition-colors cursor-pointer underline">milibajaj.work@gmail.com</a>
                 </p>
               </div>
               <div>
                 <h2 className="m-0 font-nats font-normal text-[15px] lg:text-[20px] text-[#F7F5ED] uppercase mb-[7px] lg:mb-2">
                   Phone Number
                 </h2>
-                <p className="font-nats font-normal text-[12px] lg:text-[16px] text-[#F7F5ED]">
-                  <a href="https://api.whatsapp.com/send?phone=+919958338850 &text=https://milibajaj.com/  Hi! I need help with this.." className="text-[#D2ADCE] hover:text-[#B89BB8] transition-colors cursor-pointer underline">+91-9958338850</a>
+                <p className="font-nats font-normal text-[16px] md:text-[18px] text-[#F7F5ED]">
+                  <a href="https://api.whatsapp.com/send?phone=+919958338850 &text=https://milibajaj.com/  Hi! I need help with this.." className="text-[#D2ADCE] text-[16px] md:text-[18px] hover:text-[#B89BB8] transition-colors cursor-pointer underline">+91-9958338850</a>
                 </p>
               </div>
             </div>
-            <p className="font-nats mb-[22px] lg:mb-[35px] w-[300px] lg:w-[455px] leading-[19px] lg:leading-9 text-[12px] lg:text-[16px] text-[#F7F5ED]">
+            <p className="font-nats mb-[22px] lg:mb-[35px] w-[300px] lg:w-[455px] leading-[19px] lg:leading-9 text-[16px] md:text-[18px] text-[#F7F5ED]">
               Ready to bring your vision to life? Lets explore how strategic
               design and modern tech can move your business forward. The first
               step to building better starts here. Reach out to schedule a 30
@@ -53,7 +53,7 @@ const GetInTouch: React.FC = () => {
               <button
                 type="button"
                 onClick={handleCalendlyClick}
-                className="inline-flex w-[300px] lg:w-[452px] h-[30px] lg:h-[32px] justify-center items-center font-nats font-normal text-[15px] lg:text-[20px] text-[#351A12] uppercase bg-[#D2ADCE] cursor-pointer"
+                className="inline-flex w-[300px] lg:w-[452px] h-[30px] lg:h-[32px] justify-center items-center font-nats font-normal text-[16px] lg:text-[20px] text-[#351A12] uppercase bg-[#D2ADCE] cursor-pointer"
               >
                 Schedule A Consultation
               </button>

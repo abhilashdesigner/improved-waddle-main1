@@ -30,7 +30,7 @@ export default function MeetCreator() {
             />
           </div>
           <div className="space-y-3">
-            <p className="text-[12px] md:text-[16px] font-nats text-[#F7F5ED]">
+            <p className="text-[16px] md:text-[18px] font-nats text-[#F7F5ED]">
               Mili Bajaj is a Visual Designer and Strategic Branding Specialist
               with over 5 years of experience, most notably as Head of Design at
               Ocularity Analytics. She blends strategic thinking with creative
@@ -39,7 +39,7 @@ export default function MeetCreator() {
               teams across print and digital platforms, her solutions are both
               aesthetically refined and results-driven.
             </p>
-            <p className="text-[12px] md:text-[16px] font-nats text-[#F7F5ED]">
+            <p className="text-[16px] md:text-[18px] font-nats text-[#F7F5ED]">
               She now partners with technologists working across the
               digital spectrum, from modern frameworks to emerging tech like AI
               and Web3. Together, they build websites and digital experiences.
@@ -74,7 +74,7 @@ export default function MeetCreator() {
           {/* Second Column - First Paragraph */}
           <div className="relative w-[325px] h-[410px] flex-shrink-0">
             <div className="absolute top-0 left-0 right-0 bottom-0 flex items-start pt-0">
-              <p className="text-[12px] md:text-[16px] font-nats text-[#F7F5ED]">
+              <p className="text-[16px] md:text-[18px] font-nats text-[#F7F5ED]">
                 Mili Bajaj is a Visual Designer and Strategic Branding
                 Specialist with over 5 years of experience, most notably as Head
                 of Design at Ocularity Analytics. She blends strategic thinking
@@ -88,7 +88,7 @@ export default function MeetCreator() {
           {/* Third Column - Second Paragraph + Button */}
           <div className="relative w-[330px] h-[410px] flex-shrink-0">
             <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-start pt-0">
-              <p className="text-[12px] md:text-[16px] font-nats text-[#F7F5ED]">
+              <p className="text-[16px] md:text-[18px] font-nats text-[#F7F5ED]">
                 across print and digital platforms, her solutions are both
                 aesthetically refined and results-driven. She now partners with technologists working across the digital spectrum, from
                 modern frameworks to emerging tech like AI and Web3. Together,

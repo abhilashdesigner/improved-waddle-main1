@@ -1496,15 +1496,15 @@ html.has-scroll-dragging {
 .project-box {
 	display:flex;
 	align-items:center;
-	position:relative
+	position:relative;
 }
 
 .project-heading {
-	padding-right:8%
+	padding-right:20px;
 }
 
 .project-text {
-	line-height:25px
+	line-height:25px;
 }
 
 .project-heading h3 {
@@ -1514,11 +1514,11 @@ html.has-scroll-dragging {
 	font-size:20px;
 	font-family:Nats;
 	text-transform:uppercase;
-	font-weight:400
+	font-weight:400;
 }
 
 .selected-works .list-projects .project::before {
-	display:none
+	display:none;
 }
 .close-icon{
 	background-image: url(/images/close-icon.svg);
@@ -1803,7 +1803,7 @@ display:none;
 
 .arrow-down {
 	width:1px;
-	height:97px;
+	height:120px;
 	top:25px;
 	position:absolute;
 	margin:0;
@@ -1819,13 +1819,12 @@ display:none;
 }
 
 .arrow-down span {
-	top:95px;
+	top:118px;
 	border-radius:100px
 }
 
 .project-text {
 	padding-right:15px;
-	font-size:13px;
 	line-height:20px
 }
 

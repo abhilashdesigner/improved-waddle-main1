@@ -22,7 +22,7 @@ const MeetCreator: React.FC = () => {
           {initialParagraphs.map((paragraph, index) => (
             <p
               key={index}
-              className="font-nats text-[12px] leading-[1.5] text-[#351A12] mb-[13px]"
+              className="font-nats text-[16px] leading-[1.5] text-[#351A12] mb-[13px]"
             >
               {paragraph}
             </p>
@@ -31,13 +31,13 @@ const MeetCreator: React.FC = () => {
             expandedParagraphs.map((paragraph, index) => (
               <p
                 key={index + 1}
-                className="font-nats text-[12px] leading-[1.5] text-[#351A12] mb-[13px]"
+                className="font-nats text-[16px] leading-[1.5] text-[#351A12] mb-[13px]"
               >
                 {paragraph}
               </p>
             ))}
           {!isExpanded && (
-            <div className="font-nats text-[12px] text-[#351A12] ">
+            <div className="font-nats text-[16px] text-[#351A12] ">
               <button
                 onClick={() => setIsExpanded(true)}
                 className="text-[#D2ADCE] hover:text-[#B89BB8] transition-colors cursor-pointer underline"
@@ -51,7 +51,7 @@ const MeetCreator: React.FC = () => {
           {allParagraphs.map((paragraph, index) => (
             <p
               key={index}
-              className="font-nats text-[16px] leading-[1.5] text-[#351A12] mb-[25px] last:mb-0"
+              className="font-nats text-[18px] leading-[1.5] text-[#351A12] mb-[25px] last:mb-0"
             >
               {paragraph}
             </p>

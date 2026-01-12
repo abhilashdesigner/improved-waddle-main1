@@ -6,13 +6,13 @@ import Link from "next/link";
 
 export default function Launch() {
   return (
-    <section className="h-[auto] lg:h-[529px] pt-[52px] pb-[52px] md:pt-[102px] bg-[#351A12]">
+    <section className="h-[auto] lg:h-[541px] pt-[52px] pb-[52px] md:pt-[102px] bg-[#351A12]">
       <div className="px-[30px] md:px-[104px] text-left md:flex md:justify-between">
         {/* Left Column: Text Content */}
         <div className="md:w-[410px] md:flex md:flex-col md:justify-center">
           <div>
             <div className="flex flex-col gap-[8px] md:gap-[25px] relative">
-              <h2 className="m-0 p-0 leading-[0] font-normal font-nats text-[18px] md:text-[20px] text-[#F7F5ED] md:text-tertiary uppercase">
+              <h2 className="m-0 p-0 leading-[0] font-normal font-nats text-[15px] md:text-[20px] text-[#F7F5ED] md:text-tertiary uppercase">
                 Strategic Design, Built on Scalable Tech
               </h2>
               <h3 className="m-0 p-0 font-normal font-monthis text-[57px] md:text-[54px] text-[#D2ADCE] leading-[70px] md:leading-[66px]">

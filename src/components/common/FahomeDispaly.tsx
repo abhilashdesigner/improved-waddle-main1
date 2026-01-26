@@ -39,7 +39,7 @@ export default function Home() {
   );
 }
 
-const Slide = (props) => {
+const Slide = (props: any) => {
   const direction = props.direction == 'left' ? -1 : 1;
   const translateX = useTransform(props.progress, [0, 1], [200 * direction, -200 * direction])
   return (

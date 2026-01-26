@@ -2,7 +2,7 @@
 import { useScroll, useTransform, motion } from 'framer-motion';
 import Lenis from 'lenis';
 
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import { useEffect, useRef } from 'react';
 
 export default function Home() {

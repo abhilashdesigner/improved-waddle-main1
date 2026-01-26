@@ -31,8 +31,7 @@ export default function Home() {
         <Slide 
 			direction={'right'} 
 			left={"-15%"} 
-			progress={scrollYProgress}>			
-		</Slide>
+			progress={scrollYProgress}/>			
 			
         
       </div>
@@ -48,7 +47,7 @@ const Slide = (props) => {
       <Phrase src={props.src}/>
     </motion.div>
   )
-}
+};
 
 const Phrase = ({src}) => {
 

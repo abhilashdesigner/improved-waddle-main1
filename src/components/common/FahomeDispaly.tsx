@@ -8,10 +8,12 @@ import { useEffect, useRef } from 'react';
 export default function Home() {
 
   const container = useRef();
+  const container = useRef<HTMLDivElement | null>(null);
+
   const { scrollYProgress } = useScroll({
     target: container,
-    offset: ['start end', 'end start']
-  })
+    offset: ['start end', 'end start'],
+  });
 
   useEffect( () => {
     const lenis = new Lenis()
@@ -31,7 +33,7 @@ export default function Home() {
 			direction={'right'} 
 			left={"-15%"} 
 			progress={scrollYProgress}>			
-			</Slide>
+		</Slide>
 			
         
       </div>

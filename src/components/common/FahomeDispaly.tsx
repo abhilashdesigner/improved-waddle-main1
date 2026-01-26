@@ -49,7 +49,11 @@ const Slide = (props: any) => {
   )
 };
 
-const Phrase = ({src}) => {
+type PhraseProps = {
+  src: StaticImageData;
+};
+
+const Phrase = ({ src }: PhraseProps) => {
 
   return (
     <div className="project-grid bottom-left">

@@ -14,16 +14,16 @@ export default function Home() {
     offset: ['start end', 'end start'],
   });
 
-  useEffect( () => {
-    const lenis = new Lenis()
+  useEffect(() => {
+  const lenis = new Lenis();
 
-    function raf(time) {
-      lenis.raf(time)
-      requestAnimationFrame(raf)
-    }
+  function raf(time: number) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
 
-    requestAnimationFrame(raf)
-  }, [])
+  requestAnimationFrame(raf);
+}, []);
 
   return (
     <main className="overflow-hidden">

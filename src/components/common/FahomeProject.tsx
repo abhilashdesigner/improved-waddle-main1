@@ -2,27 +2,28 @@
 import { useScroll, useTransform, motion } from 'framer-motion';
 import Lenis from 'lenis';
 
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import { useEffect, useRef } from 'react';
 
 export default function Home() {
 
-  const container = useRef();
+  const container = useRef<HTMLDivElement | null>(null);
+
   const { scrollYProgress } = useScroll({
     target: container,
-    offset: ['start end', 'end start']
-  })
+    offset: ['start end', 'end start'],
+  });
 
-  useEffect( () => {
-    const lenis = new Lenis()
+  useEffect(() => {
+  const lenis = new Lenis();
 
-    function raf(time) {
-      lenis.raf(time)
-      requestAnimationFrame(raf)
-    }
+  function raf(time: number) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
 
-    requestAnimationFrame(raf)
-  }, [])
+  requestAnimationFrame(raf);
+}, []);
 
   return (
     <main className="overflow-hidden">
@@ -39,7 +40,7 @@ export default function Home() {
   );
 }
 
-const Slide = (props) => {
+const Slide = (props: any) => {
   const direction = props.direction == 'left' ? -1 : 1;
   const translateX = useTransform(props.progress, [0, 1], [200 * direction, -200 * direction])
   return (
@@ -49,7 +50,11 @@ const Slide = (props) => {
   )
 }
 
-const Phrase = ({src}) => {
+type PhraseProps = {
+  src: StaticImageData;
+};
+
+const Phrase = ({ src }: PhraseProps) => {
 
   return (
     <div className="project-grid bottom-left">

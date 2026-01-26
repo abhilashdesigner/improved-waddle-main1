@@ -7,7 +7,6 @@ import { useEffect, useRef } from 'react';
 
 export default function Home() {
 
-  const container = useRef();
   const container = useRef<HTMLDivElement | null>(null);
 
   const { scrollYProgress } = useScroll({

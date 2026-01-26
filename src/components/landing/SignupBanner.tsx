@@ -3,12 +3,43 @@
 import { useState } from "react";
 
 export default function SignupBanner() {
-  const [email, setEmail] = useState("");
+	const [email, setEmail] = useState('');
+    //const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = async(e: React.FormEvent) => {
+    //console.log('comeing');
+	e.preventDefault();
+	//console.log('comeing2');
     // Handle newsletter subscription here
+	try {
+      const res = await fetch(
+        'https://script.google.com/macros/s/AKfycby3Ni2X9goHqY7_HJf59bETQf7EimYlvq2LAyagPMdR53VW_n7MPMYcFay-JSgsdGnHrw/exec',
+        {
+          method: 'POST',
+		  mode: 'no-cors',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ email, 'ip': 'localhost' }),
+        }
+      );
+
+      const data = await res.json();
+console.log(data);
+      if (data.success) {
+        alert('Saved successfully!');
+        setEmail('');
+      } else {
+        alert('Failed to save');
+      }
+    } catch (err) {
+      //alert('Something went wrong');
+    } finally {
+      //setLoading(false);
+    }
+  
   };
+ 
 
   return (
     <div className="w-full bg-[#351A12] px-[30px] md:px-[104px] overflow-x-hidden">
@@ -26,7 +57,7 @@ export default function SignupBanner() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="email address"
-              className="w-[300px] pt-0 pb-[1px] border-0 border-b border-[#D2ADCE] focus:outline-none font-nats text-[16px] md:text-[18px] bg-transparent text-[#F7F5ED] placeholder-[#F7F5ED] focus:placeholder-transparent"
+              className="w-[300px] pt-0 pb-[1px] border-0 border-b border-[#D2ADCE] focus:outline-none font-nats text-[12px] bg-transparent text-[#F7F5ED] placeholder-[#F7F5ED] focus:placeholder-transparent"
               required
             />
             <button

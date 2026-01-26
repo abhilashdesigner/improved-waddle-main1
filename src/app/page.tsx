@@ -1,4 +1,7 @@
 import ProjectDisplay from "@/components/common/ProjectDisplay";
+import TypsyDispaly from "@/components/common/TypsyDispaly";
+import NimhansDispaly from "@/components/common/NimhansDispaly";
+import FahomeDispaly from "@/components/common/FahomeDispaly";
 import Contact from "@/components/landing/Contact";
 import Hero from "@/components/landing/Hero";
 import Launch from "@/components/landing/Launch";
@@ -14,6 +17,9 @@ export default function Home() {
       <Hero />
       <Launch />
       <ProjectDisplay />
+	  <TypsyDispaly	/>
+	  <NimhansDispaly />
+	  <FahomeDispaly />
       <MeetCreator />
       <Services />
 	  <Servicesmobile />

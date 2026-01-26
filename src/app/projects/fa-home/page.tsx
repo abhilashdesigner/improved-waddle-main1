@@ -1,7 +1,9 @@
 "use client";
 
 import Contact from "@/components/landing/Contact";
-import FahomeProject from "@/components/pdp/FahomeProject";
+import ProjectPage from "@/components/common/ProjectPage";
+import FahomeProjectTypsy from "@/components/pdp/FahomeProjectTypsy";
+import FahomeProjectNimhans from "@/components/pdp/FahomeProjectNimhans";
 import ClientInfo from "@/components/pdp/ClientInfo";
 import DirectionAndExperience from "@/components/pdp/DirectionAndExperience";
 import Foundations from "@/components/pdp/Foundations";
@@ -170,7 +172,9 @@ export default function PDP3() {
         contentClass="lg:w-[940px] w-full flex items-center justify-start pt-4 lg:pt-0"
         paddingXl="px-8 py-[25px] lg:p-12 xl:px-[100px] xl:py-[45px]"
       />
-      <FahomeProject />
+      <ProjectPage />
+	  <FahomeProjectTypsy />
+	  <FahomeProjectNimhans />
       <Contact />
     </main>
   );

@@ -55,7 +55,7 @@ export default function Hero(props: HeroProps) {
             ))}
           </div>
           <h1
-            className={`m-0 font-monthis font-normal text-[48px] lg:text-[54px] leading-[1.23] md:mb-[38px] mb-[30px] ${props.mobileTitleColor} lg:text-[#52160D] [word-spacing:1.5px]`}
+            className={`m-0 font-monthis font-normal text-[48px] lg:text-[54px] leading-[1.23] md:mb-[10px] mb-[0px] ${props.mobileTitleColor} lg:text-[#52160D] [word-spacing:1.5px]`}
           >
             {props.title}
           </h1>

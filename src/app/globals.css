@@ -8,7 +8,13 @@ img {
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
 }
+* {
+  -webkit-tap-highlight-color: transparent;
+}
 
+html {
+  color-scheme: light;
+}
 
 .loader {
   display: none;
@@ -1852,5 +1858,9 @@ input[type="email"], input[type="email"]:focus, form div{
 }
 .mobilenimhansstrategy div:first-child h2, .mobilenimhansstrategy div:first-child {
 	margin-top:0px;
-} 
+}
+ 
+.contact-btn{
+	top:0px;
+}
 }

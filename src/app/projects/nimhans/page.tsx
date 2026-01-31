@@ -2,6 +2,8 @@
 
 import Contact from "@/components/landing/Contact";
 import NimhansProject from "@/components/pdp/NimhansProject";
+import NimhansProjectFahome from "@/components/pdp/NimhansProjectFahome";
+import NimhansProjectTypsy from "@/components/pdp/NimhansProjectTypsy";
 import ClientInfo from "@/components/pdp/ClientInfo";
 import DirectionAndExperience from "@/components/pdp/DirectionAndExperience";
 import Foundations from "@/components/pdp/Foundations";
@@ -240,6 +242,8 @@ export default function PDP2() {
       </section>
 	  <Bookslidermobile />
 	  <NimhansProject />
+	  <NimhansProjectTypsy />
+	  <NimhansProjectFahome />
       <Contact />
     </main>
   );

@@ -62,7 +62,7 @@ export default function ProjectDisplay({
                   thinking <br className="br-d" />brands to translate vision into value, building identities that elevate businesses and evolve with them.
                 </div>
               </div>
-		<div className="project-row">
+		<div className="project-row hidden">
 			<div className="project-grid bottom-left">
 				<a
 				  href="/projects/nimhans"

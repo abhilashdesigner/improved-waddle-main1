@@ -2,6 +2,8 @@
 
 import Contact from "@/components/landing/Contact";
 import TypsyProject from "@/components/pdp/TypsyProject";
+import TypstProjectNimhans from "@/components/pdp/TypstProjectNimhans";
+import TypsyProjectFahome from "@/components/pdp/TypsyProjectFahome";
 import ClientInfo from "@/components/pdp/ClientInfo";
 import DirectionAndExperience from "@/components/pdp/DirectionAndExperience";
 import Foundations from "@/components/pdp/Foundations";
@@ -205,6 +207,8 @@ export default function PDP1() {
         </div>
       </section>
 	  <TypsyProject />
+	  <TypstProjectNimhans />
+	  <TypsyProjectFahome />
       <Contact />
     </main>
   );

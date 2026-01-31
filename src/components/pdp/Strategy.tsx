@@ -92,7 +92,7 @@ export default function Strategy(props: StrategyProps) {
       </div>
       {mobileContentBottom.length > 0 && (
         <div
-          className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pb-[48px] pt-[48px]`}
+          className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pb-[48px] pt-[38px]`}
         >
           <div className="w-full text-left mobilenimhansstrategy">
             <div className={`flex flex-col`}>

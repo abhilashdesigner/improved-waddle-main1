@@ -7,7 +7,7 @@ import { useEffect, useRef } from 'react';
 
 export default function Home() {
 
-  const container = useRef<HTMLDivElement | null>(null);
+ const container = useRef<HTMLDivElement | null>(null);
 
   const { scrollYProgress } = useScroll({
     target: container,
@@ -41,9 +41,9 @@ export default function Home() {
 
 const Slide = (props: any) => {
   const direction = props.direction == 'left' ? -1 : 1;
-  const translateX = useTransform(props.progress, [0, 1], [20 * direction, -20 * direction])
+  const translateX = useTransform(props.progress, [0, 1], [50 * direction, -50 * direction])
   return (
-    <motion.div style={{x: translateX, left: props.left}} className="relative flex whitespace-nowrap md:ml-[50%] ml-[75%]">
+    <motion.div style={{x: translateX, left: props.left}} className="relative flex whitespace-nowrap md:ml-[40%] ml-[40%]">
       <Phrase src={props.src}/>
     </motion.div>
   )

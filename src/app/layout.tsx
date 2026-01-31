@@ -45,6 +45,17 @@ export default function RootLayout({
         {fontPreloadLinks.map((link, index) => (
           <link key={index} {...link} />
         ))}
+		<meta 
+		name="viewport" 
+		content="width=device-width, 
+		initial-scale=1, 
+		viewport-fit=cover" 
+		/>
+		<meta 
+		name="color-scheme" 
+		content="only light" 
+		/>
+
         <script
           src="https://assets.calendly.com/assets/external/widget.js"
           type="text/javascript"

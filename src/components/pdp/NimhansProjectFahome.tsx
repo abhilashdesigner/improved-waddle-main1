@@ -41,9 +41,9 @@ export default function Home() {
 
 const Slide = (props: any) => {
   const direction = props.direction == 'left' ? -1 : 1;
-  const translateX = useTransform(props.progress, [0, 1], [20 * direction, -20 * direction])
+  const translateX = useTransform(props.progress, [0, 1], [100 * direction, -100 * direction])
   return (
-    <motion.div style={{x: translateX, left: props.left}} className="relative flex whitespace-nowrap md:ml-[50%] ml-[75%]">
+    <motion.div style={{x: translateX, left: props.left}} className="relative flex whitespace-nowrap md:ml-[10%] ml-[60%]">
       <Phrase src={props.src}/>
     </motion.div>
   )
@@ -58,8 +58,8 @@ const Phrase = ({ src }: PhraseProps) => {
   return (
     <div className="project-grid bottom-left">
 				<a
-				  href="/projects/typsy-beauty"
-				  className="project mt-[70px]"
+				  href="/projects/fa-home"
+				  className="project mt-[80px] mb-[80px] md:mt-[180px] md:mb-[180px]"
 				>
 				  <div
 					className="project-marquee"
@@ -68,9 +68,9 @@ const Phrase = ({ src }: PhraseProps) => {
 					data-scroll-direction="horizontal"
 					data-scroll-speed="8"
 				  >
-					<div className="project-marquee_img">
+				  <div className="project-marquee_img">
 					  <Image 
-					   src="/images/tb1.jpg" 
+					   src="/images/fahome1.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -78,7 +78,7 @@ const Phrase = ({ src }: PhraseProps) => {
 					</div>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/tb2.jpg" 
+					   src="/images/fahome2.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -86,38 +86,7 @@ const Phrase = ({ src }: PhraseProps) => {
 					</div>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/tb3.jpg" 
-					   alt="Media"
-					   width={100}
-					   height={100} 
-					  />
-					</div>
-					<h3>
-					  <p>
-						<span>WEB design</span>
-						<span>UI/UX redesign</span>
-					  </p>
-					  <div>Typsy Beauty</div>
-					</h3>
-					<div className="project-marquee_img">
-					  <Image 
-					   src="/images/tb4.jpg" 
-					   alt="Media"
-					   width={100}
-					   height={100} 
-					  />
-					</div>
-					<div className="project-marquee_img">
-					  <Image 
-					   src="/images/tb5.jpg" 
-					   alt="Media"
-					   width={100}
-					   height={100} 
-					  />
-					</div>
-					<div className="project-marquee_img">
-					  <Image 
-					   src="/images/tb6.jpg" 
+					   src="/images/fahome3.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -125,14 +94,14 @@ const Phrase = ({ src }: PhraseProps) => {
 					</div>
 					<h3>
 					  <p>
-						<span>WEB design</span>
-						<span>UI/UX redesign</span>
+						<span>Brand Identity</span>
+						<span>Web design</span>
 					  </p>
-					  <div>Typsy Beauty</div>
+					  <div>FA Home</div>
 					</h3>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/tb1.jpg" 
+					   src="/images/fahome4.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -140,7 +109,7 @@ const Phrase = ({ src }: PhraseProps) => {
 					</div>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/tb2.jpg" 
+					   src="/images/fahome5.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -148,7 +117,7 @@ const Phrase = ({ src }: PhraseProps) => {
 					</div>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/tb3.jpg" 
+					   src="/images/fahome6.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -156,14 +125,14 @@ const Phrase = ({ src }: PhraseProps) => {
 					</div>
 					<h3>
 					  <p>
-						<span>WEB design</span>
-						<span>UI/UX redesign</span>
+						<span>Brand Identity</span>
+						<span>Web design</span>
 					  </p>
-					  <div>Typsy Beauty</div>
+					  <div>FA Home</div>
 					</h3>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/tb4.jpg" 
+					   src="/images/fahome1.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -171,7 +140,7 @@ const Phrase = ({ src }: PhraseProps) => {
 					</div>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/tb5.jpg" 
+					   src="/images/fahome2.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 
@@ -179,7 +148,38 @@ const Phrase = ({ src }: PhraseProps) => {
 					</div>
 					<div className="project-marquee_img">
 					  <Image 
-					   src="/images/tb6.jpg" 
+					   src="/images/fahome3.jpg" 
+					   alt="Media"
+					   width={100}
+					   height={100} 
+					  />
+					</div>
+					<h3>
+					  <p>
+						<span>Brand Identity</span>
+						<span>Web design</span>
+					  </p>
+					  <div>FA Home</div>
+					</h3>
+					<div className="project-marquee_img">
+					  <Image 
+					   src="/images/fahome4.jpg" 
+					   alt="Media"
+					   width={100}
+					   height={100} 
+					  />
+					</div>
+					<div className="project-marquee_img">
+					  <Image 
+					   src="/images/fahome5.jpg" 
+					   alt="Media"
+					   width={100}
+					   height={100} 
+					  />
+					</div>
+					<div className="project-marquee_img">
+					  <Image 
+					   src="/images/fahome6.jpg" 
 					   alt="Media"
 					   width={100}
 					   height={100} 

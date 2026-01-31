@@ -30,11 +30,8 @@ export default function Home() {
       <div ref={container}>
         <Slide 
 			direction={'right'} 
-			left={"-5%"} 
 			progress={scrollYProgress}>			
 			</Slide>
-			
-        
       </div>
     </main>
   );
@@ -42,9 +39,9 @@ export default function Home() {
 
 const Slide = (props: any) => {
   const direction = props.direction == 'left' ? -1 : 1;
-  const translateX = useTransform(props.progress, [0, 1], [50 * direction, -50 * direction])
+  const translateX = useTransform(props.progress, [0, 1], [40 * direction, -40 * direction])
   return (
-    <motion.div style={{x: translateX, left: props.left}} className="relative flex whitespace-nowrap">
+    <motion.div style={{x: translateX, left: props.left}} className="relative flex whitespace-nowrap md:ml-[-15%] ml-[-50%]">
       <Phrase src={props.src}/>
     </motion.div>
   )

@@ -168,7 +168,7 @@ export default function PDP3() {
         mobileFinalDirection={data.page7.mobileFinalDirection ?? ""}
         height="h-[352px]"
         image={null}
-        titleClass="lg:w-[500px] w-full flex items-center justify-start pt-4 lg:pt-0 lg:pr-8 xl:mr-12"
+        titleClass="lg:w-[500px] w-full flex items-center justify-start lg:pt-0 lg:pr-8 xl:mr-12"
         contentClass="lg:w-[940px] w-full flex items-center justify-start pt-4 lg:pt-0"
         paddingXl="px-8 py-[25px] lg:p-12 xl:px-[100px] xl:py-[45px]"
       />

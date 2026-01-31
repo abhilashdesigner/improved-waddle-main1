@@ -32,7 +32,7 @@ export default function MeetCreator() {
           <div className="space-y-3">
             <p className="text-[16px] md:text-[18px] font-nats text-[#F7F5ED]">
               Mili Bajaj is a Visual Designer and Strategic Branding Specialist
-              with over 5 years of experience, most notably as Head of Design at
+              with over 7 years of experience, most notably as Head of Design at
               Ocularity Analytics. She blends strategic thinking with creative
               execution, delivering impactful work across branding, UI/UX,
               packaging and visual storytelling. Having led multidisciplinary
@@ -76,7 +76,7 @@ export default function MeetCreator() {
             <div className="absolute top-0 left-0 right-0 bottom-0 flex items-start pt-0">
               <p className="text-[16px] md:text-[18px] font-nats text-[#F7F5ED]">
                 Mili Bajaj is a Visual Designer and Strategic Branding
-                Specialist with over 5 years of experience, most notably as Head
+                Specialist with over 7 years of experience, most notably as Head
                 of Design at Ocularity Analytics. She blends strategic thinking
                 with creative execution, delivering impactful work across
                 branding, UI/UX, packaging and visual storytelling. Having led

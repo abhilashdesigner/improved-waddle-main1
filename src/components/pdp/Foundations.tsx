@@ -89,7 +89,7 @@ export default function Foundations(props: FoundationsProps) {
       </div>
       {mobileContentBottom.length > 0 && (
         <div
-          className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pb-[48px] pt-[20px]`}
+          className={`lg:hidden w-full bg-[#F0E5D4] flex items-center justify-center px-[30px] pb-[48px] pt-[10px]`}
         >
           <div className="w-full text-left">
             <div className="flex flex-col">

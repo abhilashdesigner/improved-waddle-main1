@@ -24,7 +24,7 @@ export default function MeetCreatorPage() {
 				/>
 				<div className="m-left-top-text">
 					<h3 className="font-normal text-[20px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Modern School Barakhamba<br />road, new delhi</h3>
-					<p className="font-nats text-[12px] md:text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Recognised for excellence in painting by<br />Mr. L.K. Advani and awarded for the<br />recreation of the Sistine Chapel.</p>
+					<p className="font-nats text-[12px] md:text-[18px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Recognised for excellence in painting<br />by Mr. L.K. Advani and awarded for<br />the recreation of the Sistine Chapel.</p>
 				</div>
 			</div>
 			<div className="m-medium">
@@ -76,7 +76,7 @@ export default function MeetCreatorPage() {
 			   />
 				<div className="m-right-top-text">
 					<h3 className="font-normal text-[20px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Srishti manipal institute of art,<br />design & technology, <br />bangalore</h3>
-					<p>Majored in Visual Communication and<br />Strategic Branding along with a minor in<br />Contemporary Art Practices.</p>
+					<p className="font-nats md:text-[18px]">Majored in Visual Communication and<br />Strategic Branding along with a minor in<br />Contemporary Art Practices.</p>
 				</div>
 			</div>
 		</div>
@@ -88,13 +88,13 @@ export default function MeetCreatorPage() {
 			<div className="m-medium-2">
 				<div>
 					<h3 className="font-normal text-[20px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Femme le shakti- art exhibition,<br /> paris, france</h3>
-					<p>Exhibited paintings on women empowerment<br />at the Indian Embassy in Paris. The show was<br />inaugurated bycelebrated artist<br />Mr. Shakti Burman.</p>
+					<p className="font-nats md:text-[18px]">Exhibited paintings on women empowerment at the Indian Embassy<br />in Paris. The show was inaugurated bycelebrated artist Mr. Shakti Burman.</p>
 				</div>
 			</div>
 			<div className="m-right-top-2">
 				<div>
 					<h3 className="font-normal text-[20px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">NIMHANS , bangalore</h3>
-					<p>Wrote and designed Numbing Exhilaration,<br />a graphic novel on Bipolar Disorder.<br />Created in collaboration with doctors and<br />patients from the Psychosis Department.</p>
+					<p className="font-nats md:text-[18px]">Wrote and designed Numbing Exhilaration, a graphic novel on Bipolar Disorder. Created in collaboration with doctors and<br />patients from the Psychosis Department.</p>
 				</div>
 			</div>
 		</div>
@@ -104,25 +104,25 @@ export default function MeetCreatorPage() {
 			<div className="m-right-top-2 m-right-top-2-1">
 			   <div className="m-right-top-2-b">
 				<h3 className="font-normal text-[20px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">HOLIDAY INN, DHAKA, bangladesh</h3>
-				<p>Curated  a wide range of artworks under<br />IHG (InterContinental Hotels Group)</p>
+				<p className="font-nats md:text-[18px]">Curated  a wide range of artworks under IHG (InterContinental Hotels Group)</p>
 			   </div>
 			</div>
 		</div>
 		<div className="b-sectiom-2">
             <div className="b-left-top-2">
                 <h3 className="font-normal text-[20px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">OCULARITY ANALYTICS, GURGAON</h3>
-                <p>Led the design vertical as Head of Design.<br />Directed projects  for clients like Typsy Beauty,<br />Janavi India and Mercari. Worked across beauty,<br />fashion, tech, wellness and retail sectors.</p>
+                <p className="font-nats md:text-[18px]">Led the design vertical as Head of Design.<br />Directed projects  for clients like Typsy Beauty, Janavi India and Mercari.<br />Worked across beauty, fashion, tech,<br />wellness and retail sectors.</p>
             </div>
 		<div className="b-medium-2">
 		    <div>
 		        <h3 className="font-normal text-[20px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">AMPLIFY MEDIA, NEW DELHI</h3>
-		        <p>Designed social campaigns and digital assets<br />for brands like DLF Emporio, DLF Chanakya<br />and ITC. Worked across luxury, lifestyle, NGO<br />and F&B sectors.</p>
+		        <p className="font-nats md:text-[18px]">Designed social campaigns and digital assets for brands like DLF Emporio, DLF Chanakya and ITC. Worked across luxury, lifestyle, NGO and F&B sectors.</p>
 		    </div>
 		</div>
 		<div className="b-right-top-2">
             <div>
                 <h3 className="font-normal text-[20px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">FOUR POINTS BY SHERATON, NEW DELHI</h3>
-                <p>Formulated brand identities for the<br />banquet hall, gym, and spa. Created<br />paintings for their public spaces.</p>
+                <p className="font-nats md:text-[18px]">Formulated brand identities for the<br />banquet hall, gym, and spa. Created<br />paintings for their public spaces.</p>
             </div>
 		</div>
 
@@ -143,7 +143,7 @@ export default function MeetCreatorPage() {
 							/>
 							<div className="m-left-top-text">
 								<h3 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Modern School Barakhamba<br />road, new delhi</h3>
-								<p className="font-nats text-[12px] md:text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Recognised for excellence in painting by<br />Mr. L.K. Advani and awarded for the<br />recreation of the Sistine Chapel.</p>
+								<p className="font-nats text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Recognised for excellence in painting by Mr. L.K. Advani and awarded for the recreation of the Sistine Chapel.</p>
 							</div>
 							</div>
 							<div className="m-medium">
@@ -195,7 +195,7 @@ export default function MeetCreatorPage() {
 								/>
 								<div className="m-right-top-text">
 									<h3 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Srishti manipal institute of<br />art, design & technology, <br />bangalore</h3>
-									<p className="font-nats text-[12px] md:text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Majored in Visual Communication and<br />Strategic Branding along with a minor in<br />Contemporary Art Practices.</p>
+									<p className="font-nats text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Majored in Visual Communication and Strategic Branding along with a minor in<br />Contemporary Art Practices.</p>
 								</div>
 
 							</div>
@@ -204,7 +204,7 @@ export default function MeetCreatorPage() {
 							<div className="top-r-columne-text top-r-columne-text-mb ">
 								<div>
 								<h3 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">OCULARITY analytics, <br />gurgaon</h3>
-								<p className="font-nats text-[12px] md:text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Led the design vertical as Head of Design.<br />Worked across beauty, fashion, tech,<br />wellness and retail sectors.</p>
+								<p className="font-nats text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Led the design vertical as Head of Design. Worked across beauty, fashion, tech, wellness and retail sectors.</p>
 								</div>
 							</div>
 						</div>
@@ -214,13 +214,13 @@ export default function MeetCreatorPage() {
 					<div className="m-medium-2">
 					<div>
 					<h3 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Femme le shakti- art exhibition,<br /> paris, france</h3>
-					<p className="font-nats text-[12px] md:text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Exhibited paintings on women empowerment<br />at the Indian Embassy in Paris. The show was<br />inaugurated by celebrated artist<br />Mr. Shakti Burman.</p>
+					<p className="font-nats text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Exhibited paintings on women empowerment at the Indian Embassy in Paris. The show was<br />inaugurated by celebrated artist<br />Mr. Shakti Burman.</p>
 					</div>
 					</div>
 					<div className="m-right-top-2">
 					<div>
 					<h3 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">NIMHANS, BANGALORE</h3>
-					<p className="font-nats text-[12px] md:text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Wrote and designed Numbing<br />Exhilaration, a graphic novel on Bipolar<br />Disorder. Created in collaboration with<br />doctors and patients from the Psychosis<br />Department.</p>
+					<p className="font-nats text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Wrote and designed Numbing<br />Exhilaration, a graphic novel on Bipolar Disorder. Created in collaboration with doctors and patients from the Psychosis<br />Department.</p>
 					</div>
 					</div>
 					<div className="top-r-columne">
@@ -228,7 +228,7 @@ export default function MeetCreatorPage() {
 					<div className="top-r-columne-text top-r-columne-text-2">
 					<div>
 					<h3 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Amplify media, new delhi</h3>
-					<p className="font-nats text-[12px] md:text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Designed social campaigns and digital<br />assets for brands like DLF<br />Emporio, DLF Chanakya and ITC.</p>
+					<p className="font-nats text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Designed social campaigns and digital assets for brands like DLF Emporio, DLF Chanakya and ITC.</p>
 					</div>
 					</div>
 					</div>
@@ -241,13 +241,13 @@ export default function MeetCreatorPage() {
 					<div className="top-r-columne-blank top-r-columne-text-b">
 					<div>
 					<h3 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">Holiday inn, dhaka,<br />bangladesh</h3>
-					<p className="font-nats text-[12px] md:text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Curated  a wide range of artworks under<br />IHG (InterContinental Hotels Group).</p>
+					<p className="font-nats text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Curated  a wide range of artworks under IHG (InterContinental Hotels Group).</p>
 					</div>
 					</div>
 					<div className="top-r-columne-text top-r-columne-text-b">
 					<div>
 					<h3 className="font-normal text-[15px] lg:text-[20px] font-nats text-[#F7F5ED] uppercase m-0 p-0">FOUR POINTS BY SHERATON,<br />new delhi</h3>
-					<p className="font-nats text-[12px] md:text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Formulated brand identities for the<br />banquet hall, gym, and spa. Created<br />paintings for their public spaces.</p>
+					<p className="font-nats text-[16px] text-[#F7F5ED] md:text-[#F0E5D6] md:pr-0">Formulated brand identities for the banquet hall, gym, and spa. Created paintings for their public spaces.</p>
 					</div>
 					</div>
 					</div>

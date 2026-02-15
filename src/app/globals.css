@@ -811,7 +811,7 @@ input[type="email"]:focus {
    width: 10px;
    height: 10px;
    top: 40px;
-   left: 307px;
+   left: 311px;
    z-index: 1;
  }
 
@@ -846,9 +846,9 @@ input[type="email"]:focus {
 }
 
 .svg-line-r {
-   top: -99px;
-   right: -84px;
-   transform: rotate(-100deg);
+   top: -98px;
+   right: -81px;
+   transform: rotate(-104deg);
 }
 
 .m-sectiom-2 {
@@ -866,14 +866,14 @@ input[type="email"]:focus {
 
 .m-medium-2::before {
    top: -15px;
-   left: 171px;
+   left: 174px;
    width: 10px;
    height: 10px;
 }
 
 .m-right-top-2 div {
    padding-right: 30px;
-   padding-left: 17px;
+   padding-left:0px;
    padding-bottom: 50px;
    margin-top: 15px;
 }
@@ -1859,7 +1859,12 @@ input[type="email"], input[type="email"]:focus, form div{
 .mobilenimhansstrategy div:first-child h2, .mobilenimhansstrategy div:first-child {
 	margin-top:0px;
 }
- 
+.mobilenimhansstrategy{
+	margin-top:15px;
+}
+.mobilenimhansstrategy div div:first-child p button{
+	margin-bottom:6px;
+}
 .contact-btn{
 	top:0px;
 }

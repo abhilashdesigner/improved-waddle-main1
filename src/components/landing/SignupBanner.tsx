@@ -13,7 +13,7 @@ export default function SignupBanner() {
     // Handle newsletter subscription here
 	try {
       const res = await fetch(
-        'https://script.google.com/macros/s/AKfycby3Ni2X9goHqY7_HJf59bETQf7EimYlvq2LAyagPMdR53VW_n7MPMYcFay-JSgsdGnHrw/exec',
+        'https://script.google.com/macros/s/AKfycbx3esokMwVIph8MHcsmIYfBJa1jXr3wnRovMGw4iAIH2md-U7BS42YScAkLtzDUv79L/exec',
         {
           method: 'POST',
 		  mode: 'no-cors',

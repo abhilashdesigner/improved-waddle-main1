@@ -1,8 +1,17 @@
+'use client'
+
+import { useRouter } from 'next/navigation'
+import { useEffect } from 'react'
 import Image from "next/image";
 
-export default function Home() {
-  return (
-    <div className=" min-h-screen items-center justify-center font-sans dark:bg-black">
+export default function Page() {
+  const router = useRouter()
+
+  useEffect(() => {
+    router.push('/')
+  }, [])
+
+  return <div className=" min-h-screen items-center justify-center font-sans dark:bg-black">
       <main className="flex min-h-screen w-full flex-col items-center justify-between bg-white dark:bg-black sm:items-start">
         <Image
           className="w-screen h-auto hidden md:block"
@@ -23,5 +32,5 @@ export default function Home() {
         
       </main>
     </div>
-  );
 }
+
